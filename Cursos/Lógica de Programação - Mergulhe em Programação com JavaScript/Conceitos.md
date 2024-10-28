@@ -22,3 +22,12 @@ Portanto, para evitar possíveis problemas e garantir a clareza do código, muit
 Apesar da inserção automática de ponto e vírgula poder ajudar a mitigar erros de sintaxe, é uma boa prática adicionar ponto e vírgula manualmente para evitar ambiguidades e problemas de interpretação. Isso é particularmente importante em situações como quando várias instruções estão em uma mesma linha, ao usar declarações de retorno de valor ou ao minificar o código.
 
 Em projetos colaborativos ou de grande escala, a consistência no estilo de codificação e a clareza do código são cruciais, e o uso explícito de ponto e vírgula contribui para um código mais legível e menos sujeito a erros de interpretação por parte dos programadores e do próprio mecanismo de ASI.
+
+### Operador ternário
+Esta operador pode ser útil em situações em que desejamos atribuir a uma variável, valores diferentes de acordo com determinadas condição. Usando o operador condicional ternário podemos escrever:
+
+```
+let Y = (X == 20) ? 50 : 70;
+```
+
+Se X for igual a 20 então Y é igual a 50, se não Y é igual a 70.

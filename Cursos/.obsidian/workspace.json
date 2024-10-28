@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0996db5ed678ece0",
+        "id": "187966b39c5df88b",
         "type": "tabs",
         "children": [
           {
-            "id": "81cf3c6496afba73",
+            "id": "2620c9c902ca3d74",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -162,12 +162,14 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "81cf3c6496afba73",
+  "active": "2620c9c902ca3d74",
   "lastOpenFiles": [
-    "Lógica de Programação - Mergulhe em Programação com JavaScript/Conceitos.md",
+    "Sem título.md",
     "Lógica de Programação - Mergulhe em Programação com JavaScript/Apresentação.md",
     "Lógica de Programação - Mergulhe em Programação com JavaScript/Comandos Java Script.md",
-    "Bem Vindo.md",
+    "Boas Vindas.md",
+    "Lógica de Programação - Mergulhe em Programação com JavaScript/Conceitos.md",
+    "create a link.md",
     "Documentação do Java Script.md",
     "Lógica de Programação - Mergulhe em Programação com JavaScript"
   ]

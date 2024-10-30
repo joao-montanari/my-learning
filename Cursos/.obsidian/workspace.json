@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "0f5f418f7fc707e6",
+        "id": "62d863496c6b087a",
         "type": "tabs",
         "children": [
           {
-            "id": "9cda493802be7d74",
+            "id": "b3a19b651ca66e8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wyden - Modelagem de Sistemas em UML/Boas vindas - Modelagem de Sistemas em UML.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Boas vindas - Modelagem de Sistemas em UML"
+            }
+          },
+          {
+            "id": "3e9221c5c68e649b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Wyden - Modelagem de Sistemas em UML/Conceitos Básicos de Modelagem de Sistemas.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Conceitos Básicos de Modelagem de Sistemas"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,19 +177,25 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "9cda493802be7d74",
+  "active": "3e9221c5c68e649b",
   "lastOpenFiles": [
     "Wyden - Modelagem de Sistemas em UML/Boas vindas - Modelagem de Sistemas em UML.md",
-    "Wyden - Modelagem de Sistemas em UML/Análise de Requisitos.canvas",
     "Wyden - Modelagem de Sistemas em UML/Conceitos Básicos de Modelagem de Sistemas.md",
+    "Wyden - Modelagem de Sistemas em UML/Análise de Requisitos.canvas",
+    "Wyden - Modelagem de Sistemas em UML/Coleção de Agentes Interconectados.canvas",
+    "Wyden - Modelagem de Sistemas em UML/Estudo de Caso de Modelagem de Sistemas em UML.md",
+    "Objetos e Classes.canvas",
+    "Wyden - Modelagem de Sistemas em UML/Utilizando UML Para Projetar o Software.md",
+    "Wyden - Modelagem de Sistemas em UML/UML Para Modelagem de Domínio.md",
+    "Wyden - Modelagem de Sistemas em UML/Introdução a Padrões de Projeto - Design Patterns.md",
+    "Imagens/user.png",
+    "Imagens/car.png",
+    "Imagens/home.png",
+    "Imagens",
     "Lógica de programação - Explore funções e listas/Lógica de programação - Explore funções e listas.md",
     "Lógica de Programação - Mergulhe em Programação com JavaScript/Lógica de Programação - Mergulhe em Programação com JavaScript.md",
     "Wyden - Modelagem de Sistemas em UML/teste.canvas",
     "Boas Vindas.md",
-    "Wyden - Modelagem de Sistemas em UML/Estudo de Caso de Modelagem de Sistemas em UML.md",
-    "Wyden - Modelagem de Sistemas em UML/Introdução a Padrões de Projeto - Design Patterns.md",
-    "Wyden - Modelagem de Sistemas em UML/UML Para Modelagem de Domínio.md",
-    "Wyden - Modelagem de Sistemas em UML/Utilizando UML Para Projetar o Software.md",
     "Wyden - Modelagem de Sistemas em UML",
     "Lógica de programação - Explore funções e listas/Comandos JavaScript.md",
     "Lógica de programação - Explore funções e listas/Conceitos.md",

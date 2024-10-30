@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"9682d4c3a210479f","type":"text","text":"Levantamento de Requisitos","x":-540,"y":-220,"width":250,"height":60},
+		{"id":"7cac562031af45ac","type":"text","text":"Análise","x":-240,"y":-220,"width":250,"height":60},
+		{"id":"aa058233c1007f76","type":"text","text":"Projeto","x":60,"y":-220,"width":250,"height":60},
+		{"id":"059d5716d3001b94","type":"text","text":"Implementação","x":360,"y":-220,"width":250,"height":60},
+		{"id":"9173fc1b963274d3","type":"text","text":"Testes","x":660,"y":-220,"width":250,"height":60},
+		{"id":"1d3d3b24354ff836","type":"text","text":"Implantação","x":960,"y":-220,"width":250,"height":60},
+		{"id":"91bd081afb5745df","type":"text","text":"Evolução/Manutenção","x":1260,"y":-220,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"73c2497071c3149f","fromNode":"9682d4c3a210479f","fromSide":"right","toNode":"7cac562031af45ac","toSide":"left"},
+		{"id":"a70125f2d72394a7","fromNode":"7cac562031af45ac","fromSide":"right","toNode":"aa058233c1007f76","toSide":"left"},
+		{"id":"25242197fed9b4ec","fromNode":"aa058233c1007f76","fromSide":"right","toNode":"059d5716d3001b94","toSide":"left"},
+		{"id":"dfb4f5c6a8fc70f1","fromNode":"059d5716d3001b94","fromSide":"right","toNode":"9173fc1b963274d3","toSide":"left"},
+		{"id":"bfa920d6686b8ba2","fromNode":"9173fc1b963274d3","fromSide":"right","toNode":"1d3d3b24354ff836","toSide":"left"},
+		{"id":"13b54d242bc5c371","fromNode":"1d3d3b24354ff836","fromSide":"right","toNode":"91bd081afb5745df","toSide":"left"}
+	]
+}

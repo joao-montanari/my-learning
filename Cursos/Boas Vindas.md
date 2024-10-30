@@ -3,4 +3,7 @@ As matérias estudadas nesse projeto são relacionadas a grade de Ciência da Co
 ## Cursos Alura
 - [[Lógica de Programação - Mergulhe em Programação com JavaScript|Lógica de Programação - Mergulhe em Programação com Java Script]]
 - [[Lógica de programação - Explore funções e listas|Lógica de programação - Explore funções e listas]]
-- 
+- [[Boas vindas - Modelagem de Sistemas em UML|Modelagem de Sistemas em UML]]
+
+## Cursos Wyden
+- [[Boas vindas - Modelagem de Sistemas em UML]]

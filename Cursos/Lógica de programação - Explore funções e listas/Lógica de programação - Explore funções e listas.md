@@ -4,5 +4,5 @@ O objetivo principal deste curso é aprender como podemos usar o Java Script par
 - [[Lógica de Programação - Mergulhe em Programação com JavaScript|Lógica de Programação - Mergulhe em Programação com JavaScript]]
 
 ## Índice
-- [[Lógica de programação - Explore funções e listas/Comandos JavaScript|Comandos Java Script|Comandos Java Script]]
+- [[Lógica de programação - Explore funções e listas/Comandos JavaScript|Comandos JavaScript]]
 - [[Lógica de programação - Explore funções e listas/Conceitos|Conceitos de Programação]]

@@ -1,0 +1,23 @@
+
+## Por que estudar Angular
+Criado e mantido pelo **Google**, o **Angular** é um **framework** tão completo, que é considerado uma verdadeira plataforma de desenvolvimento, possibilitando a criação de aplicações robustas, seguras e escaláveis, utilizando tecnologias como **TypeScript**, **HTML** e **CSS**. Nesta formação você aprenderá a:
+- Compreender os conceitos de arquitetura do framework
+- Desenvolver o seu primeiro CRUD (Criar, Ler, Atualizar e Deletar) usando o Angular
+- Evoluir a aplicação com novas funcionalidades e refatoração de código
+- Trabalhar com formulários orientados a templates, uso de diretivas e comunicação entre componentes
+- Programar de forma reativa utilizando a biblioteca RxJS
+
+## Passo a passo
+#### 1. Explore as bases do Angular
+Nesta etapa inicial, você mergulhará no universo do Angular, começando pela criação de aplicações usando a poderosa ferramenta **Angular CLI**.
+
+Vamos aprofundar nossa compreensão na estrutura de **componentes** e explorar os conceitos fundamentais, tais como **templates, diretivas, services** e **injeção de dependências**.
+
+Você também verá como fazer a configuração de rotas da aplicação e vai aproveitar o poder do **HTTPClient** do Angular para executar operações CRUD no seu back-end.
+
+Além disso, você verá a construção de formulários e a aplicação de validações, utilizando as duas abordagens do angular - **data driven (formulários reativos)** e **template driven** - proporcionando uma base sólida para sua evolução.
+- [[Como começar com Angular]]
+- [[Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD]]
+- Angular 14: evoluindo a aplicação.
+- Angular: como funciona um componente? | Alura.
+- Angular: formulários orientados a templates

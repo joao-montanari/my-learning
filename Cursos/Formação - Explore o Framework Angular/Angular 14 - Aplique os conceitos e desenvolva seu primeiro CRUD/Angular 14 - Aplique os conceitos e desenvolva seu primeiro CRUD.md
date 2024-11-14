@@ -1,3 +1,5 @@
+
+## Temas
 - Utilize a ferramenta Angular CLI para criar um projeto e diversos tipos de arquivos
 - Entenda a estrutura de um componente em Angular
 - Aprenda como usar property binding, interpolação, event binding e two-way data binding

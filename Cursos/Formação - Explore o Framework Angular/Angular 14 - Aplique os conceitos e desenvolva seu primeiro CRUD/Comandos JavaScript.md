@@ -32,3 +32,11 @@ ng generate component <my-component>
 ng g c <my-component>
 ```
 
+### Comando para criar um service
+
+```
+ng generate service <service-name>
+// ou
+ng g s <service-name>
+```
+

@@ -263,3 +263,143 @@ Rastreia se a rota vinculada de um elemento está ativa no momento e permite que
 ```
 
 ---
+### Listando com `*ngFor`
+Se trata de uma diretiva estrutural que renderiza um templete para cada item em uma coleção. A diretiva é colocada em um elemento, que se torna o pai dos templates clonados.
+A diretiva `*ngFor` se trata do operador `for` para o Angular.
+
+**Variável lista na classe do componente:**
+
+```
+itensList = [
+	{}, // objeto que descreve o item
+];
+```
+
+**Lista sendo renderizada com `*ngFor` no template HTML:**
+
+```
+<div *ngFor="let item of itensList">
+	<app-item></app-item>
+</div>
+```
+
+---
+### Comunicação entre componentes
+
+##### `@Input()`
+Decorador que marca um campo de classe como uma propriedade de entrada e fornece metadados de configuração. A propriedade de entrada é vinculada a uma propriedade DOM no modelo.
+O `@Input()` permite passar parâmetros para um componente, assim o desenvolvedor consegue passar informações de um componente "pai" para um componente "filho".
+
+**Variável lista na classe do componente PAI:**
+
+```
+itensList = [
+	{
+		conteudo: "Passo informações para o componente filho",
+		autoria: "Componente pai",
+	},
+	{
+		conteudo: "Minha propriedade é decorada com @Input",
+		autoria: "Componente filho",
+	},
+];
+```
+
+**Decorador sendo usado na classe do componente FILHO:**
+
+```
+@Input() item = {
+	conteudo: "Sem conteúdo",
+	autoria: "Ninguem",
+}
+```
+Se nenhuma informação for passada como parâmetro para a variável `item` então, os atributos `conteudo` e  `autoria` seriam preenchidos com o conteúdo padrão, que no caso seria "Sem conteúdo" e "Ninguem" respectivamente.
+
+**Componente filho sendo chamado no template do componente PAI com passagem de informações:**
+
+```
+<div *ngFor="let item of itensList">
+	<app-item [item]="item"></app-item>
+</div>
+```
+
+---
+### Condições com `*ngIf`
+Uma diretiva estrutural que inclui condicionalmente um modelo com base no valor de uma expressão coagida para Boolean. Quando a expressão é avaliada como `true`, o Angular renderiza o modelo fornecido em uma cláusula `then`, e quando `false` ou `null`, o Angular renderiza o modelo fornecido em uma cláusula `else` opcional. O modelo padrão para a cláusula `else` é em branco.
+A diretiva `*ngIf` se trata do operador `if` para o Angular.
+
+**`*ngIf` sendo usado no template HTML do componente:**
+
+```
+<div *ngIf="itensList.length > 0, else semItens">
+	<div *ngFor="let item of itensList">
+		<app-thought [item]="item"></app-thought>
+	</div>
+</div>
+```
+
+**Template que vai ser renderizado caso o `*ngIf` não tenha a condição verdadeira:**
+
+```
+<ng-template #semItens>
+	<div>
+		<p>Ainda não há itens cadastrados!</p>
+	</div>
+</ng-template>
+```
+Como o parâmetro `else` foi adicionada ao `*ngIf` logo é possível especificar o que deve aparecer caso a condição do `*ngIf` não seja verdadeira, é preciso apenas adicionar o nome do Template a condição, que no caso exemplificado acima foi `#semItens`.
+
+---
+### Estilização com ngClass
+O `ngClass` se trata de um tipo de parametrização que é possível passar para um elemento no template html para realizar estilizações no mesmo usando lógicas da classe do `component.ts`.
+
+**`ngClass` sendo usado no elemento do template HTML:**
+
+```
+<div
+	class="container"
+	[ngClass]="widthContainer()"
+>
+</div>
+```
+
+**Lógica da classe no `component.ts` que está sendo referenciada no ngClass:**
+
+```
+widthContainer() : string {
+	if(this.item.conteudo.length >= 256) {
+		return "container-big";
+	}
+	return "container-small";
+}
+```
+Dependendo da condição que existe dentro da função `widthContainer` a classe CSS `container-big` ou `container-small` vai ser adicionada ao elemento `div` no template HTML.
+
+---
+### Tipos de diretivas:
+**Diretivas de componentes:** Usado com um modelo. Esse tipo de diretiva é a mais comum.
+- Exemplo: `<app-item>`
+**Diretivas estruturais:** Altera o layout do DOM adicionando e removendo elementos DOM.
+- Exemplo: NgIf, NgFor ou NgSwitch.
+**Diretivas de atributos:** altera a aparência ou o comportamento de um elemento, componente ou outra diretiva.
+- Exemplo: NgClass, NgStyle.
+
+---
+### Implementação de interfaces
+Um dos princípios básicos do TypeScript é que a verificação de tipos foca na forma que os valores têm. Isso às vezes é chamado de "duck typing" ou "structural subtyping". No TypeScript, as interfaces preenchem o papel de nomear esses tipos e são uma maneira poderosa de definir contratos com código fora do seu projeto.
+A interface ajuda a criar estruturas mais complexas de variáveis, auxiliando a definir os tipos dos atributos que compõem um objeto por exemplo. Assim, o desenvolvedor cria um "contrato" que define como as variáveis declaradas com aquele tipo de Interface devem ser.
+
+**Interface Note**
+
+```
+interface Note {
+	id : number
+	conteudo : string
+	autoria : string
+	modelo : string
+}
+```
+
+---
+### Conhecendo services
+A estrutura do Ang

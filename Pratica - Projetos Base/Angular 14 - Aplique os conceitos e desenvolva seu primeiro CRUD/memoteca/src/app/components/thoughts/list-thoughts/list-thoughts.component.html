@@ -10,4 +10,15 @@
       Adicionar pensamento
     </button>
   </header>
+  <div class="mural" *ngIf="listThoughts.length > 0, else semPensamentos">
+    <div *ngFor="let thought of listThoughts">
+      <app-thought [thought]="thought"></app-thought>
+    </div>
+  </div>
 </section>
+
+<ng-template #semPensamentos>
+  <div class="ff-inter sem-pensamentos">
+    <p>Ainda não há pensamentos cadastrados!</p>
+  </div>
+</ng-template>

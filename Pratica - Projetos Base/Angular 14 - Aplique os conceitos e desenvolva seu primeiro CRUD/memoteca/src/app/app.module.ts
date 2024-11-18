@@ -9,6 +9,7 @@ import { TitleComponent } from './components/title/title.component';
 import { CreateThoughtsComponent } from './components/thoughts/create-thoughts/create-thoughts.component';
 import { FormsModule } from '@angular/forms';
 import { ListThoughtsComponent } from './components/thoughts/list-thoughts/list-thoughts.component';
+import { ThoughtComponent } from './components/thoughts/thought/thought.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ListThoughtsComponent } from './components/thoughts/list-thoughts/list-
     TitleComponent,
     CreateThoughtsComponent,
     ListThoughtsComponent,
+    ThoughtComponent,
   ],
   imports: [
     BrowserModule,

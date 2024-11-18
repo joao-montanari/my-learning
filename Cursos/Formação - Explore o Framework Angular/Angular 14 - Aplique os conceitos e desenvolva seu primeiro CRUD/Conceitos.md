@@ -30,7 +30,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
       <h1>
-        Desafio Aula 1
+        Hello world!
       </h1>
   `,
   styles: []
@@ -64,7 +64,7 @@ thought = {
 	id="input" 
 	name="input"
 	placeholder="Digite..."
-	[value]="thought.conteudo" // utlização do Property Binding
+	[value]="objeto.atributo" // utlização do Property Binding
 >
 ```
 Perceba que o campo "value" da tag input é envolvido com colchetes para aceitar valores de referencia do arquivo **component.ts**.
@@ -74,7 +74,7 @@ Perceba que o campo "value" da tag input é envolvido com colchetes para aceitar
 A interpolação é uma forma de usar o Property Binding quando não temos uma propriedade na tag HTML para fazer uma vinculação,
 
 ```
-<p>{{ thought.conteudo }}</p>
+<p>{{ objeto.atributo }}</p>
 ```
 
 ---
@@ -84,8 +84,8 @@ Event Binding ou **Vinculação de Eventos**, permite ao desenvolvedor escutar a
 **Evento no component.ts:**
 
 ```
-createThought() {
-	alert("SALVAR");
+helloFunction() {
+	alert("Hello world!");
 }
 ```
 
@@ -93,9 +93,9 @@ createThought() {
 
 ```
 <button
-	(click)="createThought()"
+	(click)="helloFunction()"
 >
-	Salvar
+	Hello
 </button>
 ```
 Perceba que adicionamos o campo "click" envolvido por chaves para escutar e receber como parâmetro os eventos que existem no componente.
@@ -108,13 +108,13 @@ Two-way binding ou **vinculação bidirecional**, fornece aos componentes do seu
 
 ```
 <input
-      type="text"
-      class="input"
-      id="input" 
-      name="input"
-      placeholder="Digite..."
-      [(ngModel)]="thought.conteudo" // utilização do Two-way binding
-    >
+	type="text"
+	class="input"
+	id="input" 
+	name="input"
+	placeholder="Digite..."
+	[(ngModel)]="thought.conteudo" // utilização do Two-way binding
+>
 ```
 Observe que anteriormente o  campo `thought.conteudo` estava sendo usado na tag input por meio do parámetro `value` envolvido por colchetes. Quando usamos a vinculação bidirecional retiramos o `[value]` e substituímos por `[(mgModel)]`.
 
@@ -169,7 +169,7 @@ Para configurar uma rota é preciso adicionar as especificações no arquivo `ap
 }
 ```
 
-Também é possível especificar uma rota que deve redirecionar para outra, com os atributos `path`, `redirectTo` e `pathMatch`. O `path` especifica a rota em que o usuário deve estar para ser redirecionado, o `redirectTo` especifica a rota para a qual o usuário vai ser redirecionado e o `pathMatch` serve para especificar qual parte da url deve ser observada para o redirecionamento, podendo ser `full` para a url inteira e `prefix` para apenas a primeira parte da url.
+Também é possível especificar uma rota que deve redirecionar para outra, com os atributos `path`, `redirectTo` e `pathMatch`. O `path` especifica a rota em que o usuário deve estar para ser redirecionado, o `redirectTo` especifica a rota para a qual o usuário vai ser redirecionado e o `pathMatch` serve para especificar qual parte da url deve ser observada para o redirecionamento, podendo ser `full` para a url inteira e `prefix` apenas para a primeira parte da url.
 
 ```
 {
@@ -180,7 +180,7 @@ Também é possível especificar uma rota que deve redirecionar para outra, com 
 ```
 
 
-**Adicionar caminho das rotas no app-routing.module.ts:**
+**Como adicionar caminho das rotas no app-routing.module.ts:**
 
 ```
 import { ListThoughtsComponent } from './components/thoughts/list-thoughts/list-thoughts.component';
@@ -215,3 +215,51 @@ Se trata de um parâmetro que quando aplicado em um elemento em um template, tor
 </button>
 ```
 
+### RouterLinkActivate
+Rastreia se a rota vinculada de um elemento está ativa no momento e permite que você especifique uma ou mais classes CSS para adicionar ao elemento quando a rota vinculada estives ativa.
+
+**RouterLinkActivate no template app.component.html**
+
+```
+<nav>
+	<ul>
+		<li
+			routerLink="/first"
+			routerLinkActivate="active" // implementação da classe CSS
+			class="links-nav py-1"
+		>
+			<a>First</a>
+		</li>
+		<li
+			routerLink="/second"
+			routerLinkActivate="active" // implementação da classe CSS
+			class="links-nav py-1"
+		>
+			<a>Second</a>
+		</li>
+		<img
+	        class="logo"
+	        routerLink="/home"
+	        routerLinkActive="active" // implementação da classe CSS
+	        src="./assets/logo.png" 
+	        alt=""
+        >
+	</ul>
+</nav>
+```
+
+**Classes CSS que estão sendo implementadas a partir do app.component.css**
+
+```
+.active{
+    border-bottom: 5px solid white;
+    color: white;
+    transition: 300ms ease-in;
+}
+
+.logo.active {
+    padding-bottom: 13px;
+}
+```
+
+---

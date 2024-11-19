@@ -8,3 +8,8 @@ As matérias estudadas nesse projeto são relacionadas a grade de Ciência da Co
 
 ## Cursos Wyden
 - [[Boas vindas - Modelagem de Sistemas em UML]]
+
+## Configurações e ferramentas de trabalho
+
+- [[Configuração|Docker com WSL]]
+

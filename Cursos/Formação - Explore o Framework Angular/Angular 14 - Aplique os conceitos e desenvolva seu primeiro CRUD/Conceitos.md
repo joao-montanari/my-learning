@@ -23,7 +23,7 @@ Ao criar um componente no Angular usando o comando de `ng generate component <my
 ### Propriedade Template
 Para poder criar um template de um componente não é possível usar a propriedade `template` dentro do `*.component.ts`, veja o exemplo abaixo usando o `app.component.ts`
 
-```
+```typescript
 import { Component } from '@angular/core';
 
 @Component({
@@ -46,8 +46,8 @@ Property Binding ou **Vinculação de Propriedade**, ajuda o desenvolvedor a def
 
 **Conteúdo no component.ts:**
 
-```
-thought = {
+```typescript
+item = {
 	id : "1",
 	conteudo : "Aprendendo Angular",
 	autoria : "Dev",
@@ -57,7 +57,7 @@ thought = {
 
 **Propriedade sendo usada no template HTML:**
 
-```
+```typescript
 <input
 	type="text"
 	class="input"
@@ -73,7 +73,7 @@ Perceba que o campo "value" da tag input é envolvido com colchetes para aceitar
 **Interpolação no template HTM:**
 A interpolação é uma forma de usar o Property Binding quando não temos uma propriedade na tag HTML para fazer uma vinculação,
 
-```
+```html
 <p>{{ objeto.atributo }}</p>
 ```
 
@@ -83,7 +83,7 @@ Event Binding ou **Vinculação de Eventos**, permite ao desenvolvedor escutar a
 
 **Evento no component.ts:**
 
-```
+```typescript
 helloFunction() {
 	alert("Hello world!");
 }
@@ -91,7 +91,7 @@ helloFunction() {
 
 **Evento sendo usada no template HTML:**
 
-```
+```html
 <button
 	(click)="helloFunction()"
 >
@@ -106,7 +106,7 @@ Two-way binding ou **vinculação bidirecional**, fornece aos componentes do seu
 
 **Propriedade sendo usada no template HTML:**
 
-```
+```typescript
 <input
 	type="text"
 	class="input"
@@ -120,7 +120,7 @@ Observe que anteriormente o  campo `thought.conteudo` estava sendo usado na tag 
 
 **Adicionando o MgModel ao contexto do projeto:**
 
-```
+```typescript
 import { FormsModule } from '@angular/forms'; // importação do FormsModule
 
 @NgModule({
@@ -150,7 +150,7 @@ Para poder criar rotas em uma aplicação Angular é necessário usar o **Router
 
 **Adicionar o RouterOutlet no contexto do projeto:**
 
-```
+```html
 <app-header></app-header>
 <main>
 	<router-outlet></router-outlet> // tag do RouterOutlet
@@ -162,7 +162,7 @@ Observe que é necessário adicionar a tag `router-outlet` ao arquivo `app.compo
 ### Configuração de rotas
 Para configurar uma rota é preciso adicionar as especificações no arquivo `app-routing.module.ts` dentro da variável `routes` que lista todas as rotas que existem dentro da aplicação.  É preciso criar um objeto que contenha as propriedades `path` e `component`. Na onde o atributo `path` vai especificar o caminho da rota e o `component` vai especificar o componente que deve ser renderizado dentro dela. Exemplo:
 
-```
+```typescript
 {
 	path: "home-page",
 	component: ElementComponent,
@@ -171,7 +171,7 @@ Para configurar uma rota é preciso adicionar as especificações no arquivo `ap
 
 Também é possível especificar uma rota que deve redirecionar para outra, com os atributos `path`, `redirectTo` e `pathMatch`. O `path` especifica a rota em que o usuário deve estar para ser redirecionado, o `redirectTo` especifica a rota para a qual o usuário vai ser redirecionado e o `pathMatch` serve para especificar qual parte da url deve ser observada para o redirecionamento, podendo ser `full` para a url inteira e `prefix` apenas para a primeira parte da url.
 
-```
+```typescript
 {
 	path: "",
 	redirectTo: "home-page",
@@ -182,7 +182,7 @@ Também é possível especificar uma rota que deve redirecionar para outra, com 
 
 **Como adicionar caminho das rotas no app-routing.module.ts:**
 
-```
+```typescript
 import { ListThoughtsComponent } from './components/thoughts/list-thoughts/list-thoughts.component';
 
 import { CreateThoughtsComponent } from './components/thoughts/create-thoughts/create-thoughts.component';
@@ -207,7 +207,7 @@ const routes: Routes = [
 ### Navegação com routerLink
 Se trata de um parâmetro que quando aplicado em um elemento em um template, torna esse elemento um link que inicia a navegação para uma rota. A navegação abre um ou mais componentes roteados em um ou mais locais `<router-outlet>` na página. Exemplo:
 
-```
+```html
 <button
 	routerLink="/home-page"
 >
@@ -220,7 +220,7 @@ Rastreia se a rota vinculada de um elemento está ativa no momento e permite que
 
 **RouterLinkActivate no template app.component.html**
 
-```
+```html
 <nav>
 	<ul>
 		<li
@@ -250,7 +250,7 @@ Rastreia se a rota vinculada de um elemento está ativa no momento e permite que
 
 **Classes CSS que estão sendo implementadas a partir do app.component.css**
 
-```
+```css
 .active{
     border-bottom: 5px solid white;
     color: white;
@@ -269,7 +269,7 @@ A diretiva `*ngFor` se trata do operador `for` para o Angular.
 
 **Variável lista na classe do componente:**
 
-```
+```typescript
 itensList = [
 	{}, // objeto que descreve o item
 ];
@@ -277,7 +277,7 @@ itensList = [
 
 **Lista sendo renderizada com `*ngFor` no template HTML:**
 
-```
+```html
 <div *ngFor="let item of itensList">
 	<app-item></app-item>
 </div>
@@ -292,7 +292,7 @@ O `@Input()` permite passar parâmetros para um componente, assim o desenvolvedo
 
 **Variável lista na classe do componente PAI:**
 
-```
+```typescript
 itensList = [
 	{
 		conteudo: "Passo informações para o componente filho",
@@ -307,7 +307,7 @@ itensList = [
 
 **Decorador sendo usado na classe do componente FILHO:**
 
-```
+```typescript
 @Input() item = {
 	conteudo: "Sem conteúdo",
 	autoria: "Ninguem",
@@ -317,7 +317,7 @@ Se nenhuma informação for passada como parâmetro para a variável `item` ent�
 
 **Componente filho sendo chamado no template do componente PAI com passagem de informações:**
 
-```
+```html
 <div *ngFor="let item of itensList">
 	<app-item [item]="item"></app-item>
 </div>
@@ -330,7 +330,7 @@ A diretiva `*ngIf` se trata do operador `if` para o Angular.
 
 **`*ngIf` sendo usado no template HTML do componente:**
 
-```
+```html
 <div *ngIf="itensList.length > 0, else semItens">
 	<div *ngFor="let item of itensList">
 		<app-thought [item]="item"></app-thought>
@@ -340,7 +340,7 @@ A diretiva `*ngIf` se trata do operador `if` para o Angular.
 
 **Template que vai ser renderizado caso o `*ngIf` não tenha a condição verdadeira:**
 
-```
+```html
 <ng-template #semItens>
 	<div>
 		<p>Ainda não há itens cadastrados!</p>
@@ -355,7 +355,7 @@ O `ngClass` se trata de um tipo de parametrização que é possível passar para
 
 **`ngClass` sendo usado no elemento do template HTML:**
 
-```
+```html
 <div
 	class="container"
 	[ngClass]="widthContainer()"
@@ -365,7 +365,7 @@ O `ngClass` se trata de um tipo de parametrização que é possível passar para
 
 **Lógica da classe no `component.ts` que está sendo referenciada no ngClass:**
 
-```
+```typescript
 widthContainer() : string {
 	if(this.item.conteudo.length >= 256) {
 		return "container-big";
@@ -391,7 +391,7 @@ A interface ajuda a criar estruturas mais complexas de variáveis, auxiliando a 
 
 **Interface Note**
 
-```
+```typescript
 interface Note {
 	id : number
 	conteudo : string
@@ -402,4 +402,55 @@ interface Note {
 
 ---
 ### Conhecendo services
-A estrutura do Ang
+A estrutura do Angular é muito organizada, e cada arquivo possui uma habilidade bem definida. Portanto, como boa prática de programação, qualquer arquivo com terminação `component.ts` deve conter apenas a lógica para definição dos comportamentos e possibilitar a renderização dos arquivos na tela.
+Considerando essa boa prática, é necessário criar um arquivo `service` (serviço em português) que contenha a lógica de negócio e que seja responsável pela comunicação com o servidor. Este arquivo contém todas as requisições ao servidor, ao mesmo tempo que nos auxilia a separar informações importantes e o modo de obtê-las.
+O arquivo `service` se trata de uma classe _typescript_ que possui o decorator `@Injectable` do pacote `@angular/core`. Isso significa que essa classe é "injetável", ou seja, pode ser utilizada em outros componentes e classes através do método de **injeção de dependências**.
+O `service` também possui o metadado `providedIn` com o valor `root`, que indica a disponibilidade de utilização ou injeção desta classe por toda a aplicação.
+
+```typescript
+import { Injectable } from '@angular/core';
+
+@Injectable({
+    providedIn: 'root'
+})
+export class ItemService {
+
+    constructor() { }
+}
+```
+
+### Injeção de dependência
+De acordo com a documentação do Angular, injeção de dependência é um padrão de projeto no qual uma classe solicita dependências de fontes externas ao invés de criá-las.
+Dependências são serviços, objetos, funções ou até mesmo um valor que uma classe necessita para desempenhar sua função.
+
+**Sem injeção de dependências:**
+
+```typescript
+export class BobComponent {
+	// declaração do atributo do serviço
+	hamburguerDeSiriService : HamburguerDeSiriService;
+	
+	constructor() {
+		this.hamburguerDeSiriService = new HamburguerDeSiriService();
+	}
+}
+```
+
+**Com injeção de dependências:**
+
+``` typescript
+export class BobComponent {
+	constructor(private hamburguerDeSiriService : HamburguerDeSiriService) { }
+}
+```
+
+**Injetando o HttpClient como dependência:**
+
+```typescript
+import { HttpClient } from "@angular/common/http";
+
+export class BobComponent {
+	constructor(http : HttpClient) {  }
+}
+```
+

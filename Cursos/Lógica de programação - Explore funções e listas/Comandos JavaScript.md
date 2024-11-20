@@ -4,12 +4,12 @@
 ### Exemplos:
 - **document.querySelector:**
 
-```
+```javascript
 let title = document.querySelector("h1");  // vai selecionar o primeiro elemento h1 do HTML
 ```
 
 - **innerHTML:**
-```
+```javascript
 let title = document.querySelector("h1");
 title.innerHTML = "Jogo do número secreto";  // vai adicionar o texto ao elemento h1
 ```

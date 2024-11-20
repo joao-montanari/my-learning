@@ -1,0 +1,20 @@
+<section class="container ff-inter excluir-pensamentos">
+    <div class="modal">
+        <p>O pensamento será deletado <br> Confirmar exclusão?</p>
+        <div class="acoes">
+            <button 
+                class="botao botao-excluir"
+                (click)="deleteThought()"
+            >
+                Excluir
+            </button>
+            <button 
+                class="botao botao-cancelar"
+                (click)="cancel()"
+            >
+                Cancelar
+            </button>
+        </div>
+    </div>
+    <div class="overlay"></div>
+</section>

@@ -12,8 +12,16 @@
     </b>
   </p>
   <div class="acoes">
-    <button class="botao-editar">
+    <button 
+      class="botao-editar"
+      routerLink="/thoughts/edit-thought/{{ thought.id }}"
+    >
       <img src="/assets/images/icone-editar.png" alt="icone de editar">
+    </button>
+    <button 
+      class="botao-excluir"
+      routerLink="/thoughts/delete-thought/{{ thought.id }}"
+    >
       <img src="/assets/images/icone-excluir.png" alt="icone de excluir">
     </button>
   </div>

@@ -14,7 +14,7 @@ bcdedit /set hypervisorlaunchtype auto
 
 Após executar esses dois comando é preciso reiniciar o computador para implementar as alterações
 
-Para executar o terminal na distribuição Linux basta executar:
+Para iniciar o terminal no Linux basta executar:
 ```bash
 wls
 ```

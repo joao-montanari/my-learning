@@ -1,4 +1,69 @@
 
+## Introdução
+Ao longo desse curso desenvolveremos o projeto **"MemoTeca"**, o seu mural de pensamentos. Nele você poderá colocar citações de livros, trechos de música, e aquelas frases legais que você quer deixar de reserva para postar como legenda em suas _selfies_.
+
+## Temas
+- Utilize a ferramenta Angular CLI para criar um projeto e diversos tipos de arquivos
+- Entenda a estrutura de um componente em Angular
+- Aprenda como usar property binding, interpolação, event binding e two-way data binding
+- Conheça algumas das principais diretivas do Angular
+- Adicione navegação dinâmica entre componentes através das rotas
+- Aplique injeção de dependências na aplicação
+- Realize requisições HTTP através da classe HttpClient e desenvolva um CRUD
+
+## Pré-requisitos
+- JavaScript - Programando a Orientação a Objetos
+- JavaScript - Explorando a linguagem
+- TypeScript parte 1 - Evoluindo o seu JavaScript
+- TypeScript parte 2 - Avançando na linguagem
+
+---
+# COMANDOS
+### Instalação do Angular
+
+```node
+npm install -g @angular/cli
+```
+
+### Desinstalação do Angular
+
+```node
+npm uninstall -g @angular/cli
+```
+
+### Criação de um projeto
+
+```node
+ng new my-app
+Would you like to add Angular routing? Yes
+Which stylesheet format would you like to use? CSS
+```
+
+### Inicialização do servidor do projeto
+
+```node
+ng serve
+```
+
+### Comando para criar um componente
+
+```node
+ng generate component <my-component>
+// ou
+ng g c <my-component>
+```
+
+### Comando para criar um service
+
+```node
+ng generate service <service-name>
+// ou
+ng g s <service-name>
+```
+
+
+---
+# CONCEITOS
 ### O que é Angular
 É um framework em front-end criado para desenvolver as aplicações de página única (Single-page application SPA). Por ser uma ferramenta tão completa é considerada uma verdadeira plataforma de desenvolvimento.
 - Estrutura baseada em componentes.
@@ -142,7 +207,7 @@ import { FormsModule } from '@angular/forms'; // importação do FormsModule
 
 export class AppModule { }
 ```
-Para usar o **MgModel** é preciso adicionar essas mudanças no arquivo `app.module.ts`.
+Para usar o **MgModel** é preciso realizar essas mudanças no arquivo `app.module.ts`.
 
 ---
 ### Navegação Dinâmica
@@ -477,7 +542,7 @@ import { Injectable } from '@angular/core';
     providedIn: 'root'
 })
 export class ItemService {
-
+	
     constructor() { }
 }
 ```
@@ -513,7 +578,7 @@ export class BobComponent {
 import { HttpClient } from "@angular/common/http";
 
 export class BobComponent {
-	constructor(http : HttpClient) {  }
+	constructor(http : HttpClient) {}
 }
 ```
 

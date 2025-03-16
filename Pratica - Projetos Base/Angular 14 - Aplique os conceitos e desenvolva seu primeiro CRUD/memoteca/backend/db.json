@@ -2,39 +2,27 @@
   "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Hello world",
-      "autoria": "JavaScript",
+      "conteudo": "We are the champions my friends!!!",
+      "autoria": "Queen",
       "modelo": "modelo1"
     },
     {
       "id": 2,
-      "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "autoria": "Lorem ipsum",
+      "conteudo": "Na minha máquina funciona!",
+      "autoria": "Dev da madrugada",
       "modelo": "modelo2"
     },
     {
       "id": 3,
-      "conteudo": "conteudo de uma nota da Memoteca",
-      "autoria": "Joao Montanari",
+      "conteudo": "Continue a codar... continue a codar...",
+      "autoria": "Dory programadora",
       "modelo": "modelo3"
     },
     {
-      "conteudo": "Sempre continue codando...",
-      "autoria": "O Grande Construtor",
-      "modelo": "modelo3",
-      "id": 4
-    },
-    {
-      "conteudo": "Eu vou conseguir o que eu desejo",
-      "autoria": "O Grande Construtor",
+      "conteudo": "Testando função de editar",
+      "autoria": "Angular ",
       "modelo": "modelo2",
-      "id": 5
-    },
-    {
-      "conteudo": "Vai em frente, vai em frente :)",
-      "autoria": "O Grande Construtor",
-      "modelo": "modelo1",
-      "id": 6
+      "id": 4
     }
   ]
 }

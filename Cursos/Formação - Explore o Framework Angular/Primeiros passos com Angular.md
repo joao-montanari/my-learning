@@ -17,4 +17,4 @@ Nessa Série veremos o que é necessário para consumirmos uma API RESTful a par
 
 ### Conectando com APIs RESTful
 
-Neste próximo passo na **criação de aplicações Angular** você vai se aprofundar na conexão de SPAs e APIs RESTful. Isso envolve saber utilizar verbos HTTP de acordo com a funcionalidade a ser consumida da API, bem como qual o tipo de dado retornado em cada caso, geralmente nenhum ou um JSON, JavaScript Object.
+Neste próximo passo na **criação de aplicações Angular** você vai se aprofundar na conexão de SPAs e APIs RESTful. Isso envolve saber utilizar verbos HTTP de acordo com a funcionalidade a ser consumida da API, bem como qual o tipo de dado retornado em cada caso, geralmente nenhum ou um JSON, JavaScript Object. 

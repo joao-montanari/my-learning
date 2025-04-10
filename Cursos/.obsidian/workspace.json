@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "352e6c6ba6d80d6d",
+        "id": "3a84e828ebd78f05",
         "type": "tabs",
         "children": [
           {
-            "id": "59077ad23ffc0fd1",
+            "id": "050af241ed8806e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formação - Explore o Framework Angular/1. Introdução.md",
+                "file": "Wyden - Faculdade/Matemática e Lógica/Boas vindas - Matemática e Lógica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Introdução"
-            }
-          },
-          {
-            "id": "d348fdef1768e65e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Formação - Explore o Framework Angular/Como começar com Angular.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Como começar com Angular"
-            }
-          },
-          {
-            "id": "df603b5b8925af11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Formação - Explore o Framework Angular/Primeiros passos com Angular.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Primeiros passos com Angular"
-            }
-          },
-          {
-            "id": "e3a99049a0c61b24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD"
+              "title": "Boas vindas - Matemática e Lógica"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,17 +163,31 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "df603b5b8925af11",
+  "active": "050af241ed8806e5",
   "lastOpenFiles": [
+    "Wyden - Faculdade/Análise de Dados/Boas Vindas - Análise de Dados.md",
+    "Wyden - Faculdade/Algoritmos e Complexidade/Boas Vindas - Algoritmo e complexidade.md",
+    "Boas Vindas.md",
+    "Wyden - Faculdade/Matemática e Lógica/Boas vindas - Matemática e Lógica.md",
+    "Wyden - Faculdade/Análise de Dados",
+    "Wyden - Faculdade/Algoritmos e Complexidade",
+    "Boas vindas - Modelagem de Sistemas em UML.md",
+    "Wyden - Faculdade/Matemática e Lógica",
+    "Wyden - Modelagem de Sistemas em UML/Boas vindas - Modelagem de Sistemas em UML.md",
+    "Wyden - Modelagem de Sistemas em UML/Conceitos Básicos de Modelagem de Sistemas.md",
+    "Wyden - Modelagem de Sistemas em UML/Coleção de Agentes Interconectados.canvas",
+    "Wyden - Modelagem de Sistemas em UML/Análise de Requisitos.canvas",
+    "Wyden - Modelagem de Sistemas em UML/Estudo de Caso de Modelagem de Sistemas em UML.md",
+    "Wyden - Modelagem de Sistemas em UML/Introdução a Padrões de Projeto - Design Patterns.md",
+    "Wyden - Modelagem de Sistemas em UML/UML Para Modelagem de Domínio.md",
+    "Wyden - Modelagem de Sistemas em UML/Utilizando UML Para Projetar o Software.md",
+    "Formação - Explore o Framework Angular/1. Introdução.md",
     "Formação - Explore o Framework Angular/Como começar com Angular.md",
     "Formação - Explore o Framework Angular/Primeiros passos com Angular.md",
     "Formação - Explore o Framework Angular/Angular 14 - Evoluindo a aplicação.md",
     "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD.md",
-    "Formação - Explore o Framework Angular/1. Introdução.md",
     "Docker/Configuração.md",
-    "Boas Vindas.md",
     "Lógica de Programação - Mergulhe em Programação com JavaScript/Lógica de Programação - Mergulhe em Programação com JavaScript.md",
-    "Wyden - Modelagem de Sistemas em UML/Boas vindas - Modelagem de Sistemas em UML.md",
     "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD/Comandos.md",
     "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD/Conceitos.md",
     "Lógica de programação - Explore funções e listas/Comandos JavaScript.md",
@@ -230,24 +201,13 @@
     "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD",
     "Objetos e Classes.canvas",
     "Formação - Explore o Framework Angular",
-    "Wyden - Modelagem de Sistemas em UML/Conceitos Básicos de Modelagem de Sistemas.md",
-    "Wyden - Modelagem de Sistemas em UML/Análise de Requisitos.canvas",
-    "Wyden - Modelagem de Sistemas em UML/Coleção de Agentes Interconectados.canvas",
-    "Wyden - Modelagem de Sistemas em UML/Estudo de Caso de Modelagem de Sistemas em UML.md",
-    "Wyden - Modelagem de Sistemas em UML/Utilizando UML Para Projetar o Software.md",
-    "Wyden - Modelagem de Sistemas em UML/UML Para Modelagem de Domínio.md",
-    "Wyden - Modelagem de Sistemas em UML/Introdução a Padrões de Projeto - Design Patterns.md",
     "Imagens/user.png",
     "Imagens/car.png",
     "Imagens/home.png",
     "Imagens",
     "Wyden - Modelagem de Sistemas em UML/teste.canvas",
-    "Wyden - Modelagem de Sistemas em UML",
+    "Wyden - Faculdade",
     "2024-10-28.md",
-    "Sem título 1.canvas",
-    "Lógica de programação - Explore funções e listas",
-    "create a link.md",
-    "Documentação do Java Script.md",
-    "Lógica de Programação - Mergulhe em Programação com JavaScript"
+    "Sem título 1.canvas"
   ]
 }

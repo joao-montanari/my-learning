@@ -7,7 +7,8 @@ As matérias estudadas nesse projeto são relacionadas a grade de Ciência da Co
 	- [[1. Introdução|Formação - Explore o Framework Angular]]
 
 ## Cursos Wyden
-- [[Boas vindas - Modelagem de Sistemas em UML]]
+- [[Boas vindas - Matemática e Lógica]]
+- [[Boas Vindas - Algoritmo e complexidade]]
 
 ## Configurações e ferramentas de trabalho
 

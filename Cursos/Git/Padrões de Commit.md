@@ -6,9 +6,11 @@ Esses commits auxiliarão você e sua equipe a entenderem de forma facilitada qu
 
 Essa identificação ocorre por meio de uma palavra e emoji que identifica se aquele commit realizado se trata de uma alteração de código, atualização de pacotes, documentação, alteração de visual, teste...
 
+---
 ### Resumo do Conventional Commits 🧭
 A especificação do Conventional Commits é uma convenção simples para utilizar nas mensagens de commit. Ela define um conjunto de regras para criar um histórico de commit explícito, o que facilita a criação de ferramentas automatizadas baseadas na especificação. Esta convenção se encaixa com o [SemVer](https://semver.org/lang/pt-BR/), descrevendo os recursos, correções e modificações que quebram a compatibilidade nas mensagens de commit.
 
+---
 ### Tipos de descrição 📖
 O commit semântico possui os elementos estruturais abaixo (tipos), que informam a intenção do seu commit ao utilizador(a) de seu código.
 
@@ -29,6 +31,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 | `remove`        | Commits do tipo remove indicam a exclusão de arquivos, diretórios ou funcionalidades obsoletas ou não utilizadas, reduzindo o tamanho e a complexidade do projeto e mantendo-o mais organizado.                                                                                                                                                                   |
 | BREAKING CHANGE | Um commit que contém no rodapé opcional o texto `BREAKING CHANGE:`, ou contém o símbolo `!` depois do tipo/escopo, introduz uma modificação que quebra a compatibilidade da API (isso se correlaciona com [`MAJOR`](https://semver.org/lang/pt-BR/#sum%C3%A1rio) do versionamento semântico). Uma BREAKING CHANGE pode fazer parte de commits de qualquer _tipo_. |
 
+---
 ### Complementos de commit ➕
 **RODAPÉ:** informação sobre o revisor e número do card no Trello ou Jira. Exemplo: Reviewed-by: Elisandro Mello Refs #133.
 **CORPO:** descrições mais precisas do que está contido no commit, apresentando impactos e os motivos pelos quais foram empregadas as alterações no código, como também instruções essenciais para intervenções futuras. Exemplo: see the issue for details on typos fixed.
@@ -43,6 +46,7 @@ A mensagem do commit deve ser estruturada da seguinte forma:
 [rodapé(s) opcional(is)]
 ```
 
+---
 ### Exemplos de descrição 👀
 
 1. **Mensagem de commit sem escopo:**
@@ -89,6 +93,7 @@ Revisado por: Daniel Nass
 Refs #133
 ```
 
+---
 ### Recomendações 📢
 - Adicione um tipo consistente com o título do conteúdo.
 - Recomendado que na primeira linha deve ter no máximo 4 palavras.
@@ -96,45 +101,46 @@ Refs #133
 - Usar um emoji no início da mensagem de commit representando sobre o commit.
 - Os links precisam ser adicionados em sua forma mais autêntica, ou seja: sem encurtadores de link e links afiliados.
 
+---
 ### Padrões de emojis 💈
-|Tipo do commit|Emoji|Palavra-chave|
-|---|---|---|
-|Acessibilidade|♿ `:wheelchair:`||
-|Adicionando um teste|✅ `:white_check_mark:`|`test`|
-|Atualizando a versão de um submódulo|⬆️ `:arrow_up:`||
-|Retrocedendo a versão de um submódulo|⬇️ `:arrow_down:`||
-|Adicionando uma dependência|➕ `:heavy_plus_sign:`|`build`|
-|Alterações de revisão de código|👌 `:ok_hand:`|`style`|
-|Animações e transições|💫 `:dizzy:`||
-|Bugfix|🐛 `:bug:`|`fix`|
-|Comentários|💡 `:bulb:`|`docs`|
-|Commit inicial|🎉 `:tada:`|`init`|
-|Configuração|🔧 `:wrench:`|`chore`|
-|Deploy|🚀 `:rocket:`||
-|Documentação|📚 `:books:`|`docs`|
-|Em progresso|🚧 `:construction:`||
-|Estilização de interface|💄 `:lipstick:`|`feat`|
-|Infraestrutura|🧱 `:bricks:`|`ci`|
-|Lista de ideias (tasks)|🔜  `:soon:`||
-|Mover/Renomear|🚚 `:truck:`|`chore`|
-|Novo recurso|✨ `:sparkles:`|`feat`|
-|Package.json em JS|📦 `:package:`|`build`|
-|Performance|⚡ `:zap:`|`perf`|
-|Refatoração|♻️ `:recycle:`|`refactor`|
-|Limpeza de Código|🧹 `:broom:`|`cleanup`|
-|Removendo um arquivo|🗑️ `:wastebasket:`|`remove`|
-|Removendo uma dependência|➖ `:heavy_minus_sign:`|`build`|
-|Responsividade|📱 `:iphone:`||
-|Revertendo mudanças|💥 `:boom:`|`fix`|
-|Segurança|🔒️ `:lock:`||
-|SEO|🔍️ `:mag:`||
-|Tag de versão|🔖 `:bookmark:`||
-|Teste de aprovação|✔️ `:heavy_check_mark:`|`test`|
-|Testes|🧪 `:test_tube:`|`test`|
-|Texto|📝 `:pencil:`||
-|Tipagem|🏷️ `:label:`||
-|Tratamento de erros|🥅 `:goal_net:`||
-|Dados|🗃️ `:card_file_box:`|`raw`|
+| Tipo do commit                        | Emoji                   | Palavra-chave |
+| ------------------------------------- | ----------------------- | ------------- |
+| Acessibilidade                        | ♿ `:wheelchair:`        |               |
+| Adicionando um teste                  | ✅ `:white_check_mark:`  | `test`        |
+| Atualizando a versão de um submódulo  | ⬆️ `:arrow_up:`         |               |
+| Retrocedendo a versão de um submódulo | ⬇️ `:arrow_down:`       |               |
+| Adicionando uma dependência           | ➕ `:heavy_plus_sign:`   | `build`       |
+| Alterações de revisão de código       | 👌 `:ok_hand:`          | `style`       |
+| Animações e transições                | 💫 `:dizzy:`            |               |
+| Bugfix                                | 🐛 `:bug:`              | `fix`         |
+| Comentários                           | 💡 `:bulb:`             | `docs`        |
+| Commit inicial                        | 🎉 `:tada:`             | `init`        |
+| Configuração                          | 🔧 `:wrench:`           | `chore`       |
+| Deploy                                | 🚀 `:rocket:`           |               |
+| Documentação                          | 📚 `:books:`            | `docs`        |
+| Em progresso                          | 🚧 `:construction:`     |               |
+| Estilização de interface              | 💄 `:lipstick:`         | `feat`        |
+| Infraestrutura                        | 🧱 `:bricks:`           | `ci`          |
+| Lista de ideias (tasks)               | 🔜  `:soon:`            |               |
+| Mover/Renomear                        | 🚚 `:truck:`            | `chore`       |
+| Novo recurso                          | ✨ `:sparkles:`          | `feat`        |
+| Package.json em JS                    | 📦 `:package:`          | `build`       |
+| Performance                           | ⚡ `:zap:`               | `perf`        |
+| Refatoração                           | ♻️ `:recycle:`          | `refactor`    |
+| Limpeza de Código                     | 🧹 `:broom:`            | `cleanup`     |
+| Removendo um arquivo                  | 🗑️ `:wastebasket:`     | `remove`      |
+| Removendo uma dependência             | ➖ `:heavy_minus_sign:`  | `build`       |
+| Responsividade                        | 📱 `:iphone:`           |               |
+| Revertendo mudanças                   | 💥 `:boom:`             | `fix`         |
+| Segurança                             | 🔒️ `:lock:`            |               |
+| SEO                                   | 🔍️ `:mag:`             |               |
+| Tag de versão                         | 🔖 `:bookmark:`         |               |
+| Teste de aprovação                    | ✔️ `:heavy_check_mark:` | `test`        |
+| Testes                                | 🧪 `:test_tube:`        | `test`        |
+| Texto                                 | 📝 `:pencil:`           |               |
+| Tipagem                               | 🏷️ `:label:`           |               |
+| Tratamento de erros                   | 🥅 `:goal_net:`         |               |
+| Dados                                 | 🗃️ `:card_file_box:`   | `raw`         |
 
 ##### Exemplos de utilização:
 

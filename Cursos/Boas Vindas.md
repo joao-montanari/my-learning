@@ -13,4 +13,4 @@ As matérias estudadas nesse projeto são relacionadas a grade de Ciência da Co
 ## Configurações e ferramentas de trabalho
 
 - [[Configuração|Docker com WSL]]
-
+- [[Padrões de Commit]]

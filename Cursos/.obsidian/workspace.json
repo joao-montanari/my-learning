@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wyden - Faculdade/Matemática e Lógica/Boas vindas - Matemática e Lógica.md",
+                "file": "Git/Padrões de Commit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Boas vindas - Matemática e Lógica"
+              "title": "Padrões de Commit"
             }
           }
         ]
@@ -165,10 +165,21 @@
   },
   "active": "050af241ed8806e5",
   "lastOpenFiles": [
+    "Boas Vindas.md",
+    "Git/Padrões de Commit.md",
+    "Formação - Explore o Framework Angular/Como começar com Angular.md",
+    "Formação - Explore o Framework Angular/Angular 14 - Evoluindo a aplicação.md",
+    "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD.md",
+    "Formação - Explore o Framework Angular/Primeiros passos com Angular.md",
+    "Formação - Explore o Framework Angular/1. Introdução.md",
+    "Imagens/user.png",
+    "Imagens/home.png",
+    "Imagens/car.png",
+    "Docker/Configuração.md",
+    "Git",
+    "Wyden - Faculdade/Matemática e Lógica/Boas vindas - Matemática e Lógica.md",
     "Wyden - Faculdade/Análise de Dados/Boas Vindas - Análise de Dados.md",
     "Wyden - Faculdade/Algoritmos e Complexidade/Boas Vindas - Algoritmo e complexidade.md",
-    "Boas Vindas.md",
-    "Wyden - Faculdade/Matemática e Lógica/Boas vindas - Matemática e Lógica.md",
     "Wyden - Faculdade/Análise de Dados",
     "Wyden - Faculdade/Algoritmos e Complexidade",
     "Boas vindas - Modelagem de Sistemas em UML.md",
@@ -181,12 +192,6 @@
     "Wyden - Modelagem de Sistemas em UML/Introdução a Padrões de Projeto - Design Patterns.md",
     "Wyden - Modelagem de Sistemas em UML/UML Para Modelagem de Domínio.md",
     "Wyden - Modelagem de Sistemas em UML/Utilizando UML Para Projetar o Software.md",
-    "Formação - Explore o Framework Angular/1. Introdução.md",
-    "Formação - Explore o Framework Angular/Como começar com Angular.md",
-    "Formação - Explore o Framework Angular/Primeiros passos com Angular.md",
-    "Formação - Explore o Framework Angular/Angular 14 - Evoluindo a aplicação.md",
-    "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD.md",
-    "Docker/Configuração.md",
     "Lógica de Programação - Mergulhe em Programação com JavaScript/Lógica de Programação - Mergulhe em Programação com JavaScript.md",
     "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD/Comandos.md",
     "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD/Conceitos.md",
@@ -197,17 +202,11 @@
     "Lógica de Programação - Mergulhe em Programação com JavaScript/Conceitos.md",
     "Lógica de Programação - Mergulhe em Programação com JavaScript/Comandos JavaScript.md",
     "Conceitos",
-    "Lógica de programação - Explore funções e listas/Lógica de programação - Explore funções e listas.md",
     "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD",
     "Objetos e Classes.canvas",
     "Formação - Explore o Framework Angular",
-    "Imagens/user.png",
-    "Imagens/car.png",
-    "Imagens/home.png",
     "Imagens",
     "Wyden - Modelagem de Sistemas em UML/teste.canvas",
-    "Wyden - Faculdade",
-    "2024-10-28.md",
     "Sem título 1.canvas"
   ]
 }

@@ -8,7 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "050af241ed8806e5",
+            "id": "1fc4a901c96a526b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/1. Introdução - GIT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Introdução - GIT"
+            }
+          },
+          {
+            "id": "acdc156d182896d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/Comandos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Comandos"
+            }
+          },
+          {
+            "id": "6c58f5a9c2124b41",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +49,8 @@
               "title": "Padrões de Commit"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,22 +192,24 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "050af241ed8806e5",
+  "active": "acdc156d182896d6",
   "lastOpenFiles": [
-    "Boas Vindas.md",
     "Git/Padrões de Commit.md",
+    "Git/Comandos.md",
+    "Git/1. Introdução - GIT.md",
+    "Boas Vindas.md",
+    "Formação - Explore o Framework Angular/1. Introdução - Angular.md",
+    "Wyden - Faculdade/Análise de Dados/Boas Vindas - Análise de Dados.md",
     "Formação - Explore o Framework Angular/Como começar com Angular.md",
     "Formação - Explore o Framework Angular/Angular 14 - Evoluindo a aplicação.md",
     "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD.md",
     "Formação - Explore o Framework Angular/Primeiros passos com Angular.md",
-    "Formação - Explore o Framework Angular/1. Introdução.md",
     "Imagens/user.png",
     "Imagens/home.png",
     "Imagens/car.png",
     "Docker/Configuração.md",
     "Git",
     "Wyden - Faculdade/Matemática e Lógica/Boas vindas - Matemática e Lógica.md",
-    "Wyden - Faculdade/Análise de Dados/Boas Vindas - Análise de Dados.md",
     "Wyden - Faculdade/Algoritmos e Complexidade/Boas Vindas - Algoritmo e complexidade.md",
     "Wyden - Faculdade/Análise de Dados",
     "Wyden - Faculdade/Algoritmos e Complexidade",
@@ -200,7 +231,6 @@
     "KeyCloak",
     "Docker",
     "Lógica de Programação - Mergulhe em Programação com JavaScript/Conceitos.md",
-    "Lógica de Programação - Mergulhe em Programação com JavaScript/Comandos JavaScript.md",
     "Conceitos",
     "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD",
     "Objetos e Classes.canvas",

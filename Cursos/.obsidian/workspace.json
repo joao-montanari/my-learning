@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3a84e828ebd78f05",
+        "id": "1c12a38e10960239",
         "type": "tabs",
         "children": [
           {
-            "id": "1fc4a901c96a526b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/1. Introdução - GIT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Introdução - GIT"
-            }
-          },
-          {
-            "id": "acdc156d182896d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Comandos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Comandos"
-            }
-          },
-          {
-            "id": "6c58f5a9c2124b41",
+            "id": "827ec5d618a09903",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,8 +21,7 @@
               "title": "Padrões de Commit"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,18 +163,20 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "acdc156d182896d6",
+  "active": "827ec5d618a09903",
   "lastOpenFiles": [
-    "Git/Padrões de Commit.md",
     "Git/Comandos.md",
+    "Git/Padrões de Commit.md",
     "Git/1. Introdução - GIT.md",
+    "Lógica de programação - Explore funções e listas/Comandos JavaScript.md",
+    "Lógica de programação - Explore funções e listas/Conceitos.md",
+    "Formação - Explore o Framework Angular/Primeiros passos com Angular.md",
     "Boas Vindas.md",
     "Formação - Explore o Framework Angular/1. Introdução - Angular.md",
     "Wyden - Faculdade/Análise de Dados/Boas Vindas - Análise de Dados.md",
     "Formação - Explore o Framework Angular/Como começar com Angular.md",
     "Formação - Explore o Framework Angular/Angular 14 - Evoluindo a aplicação.md",
     "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD.md",
-    "Formação - Explore o Framework Angular/Primeiros passos com Angular.md",
     "Imagens/user.png",
     "Imagens/home.png",
     "Imagens/car.png",
@@ -226,8 +199,6 @@
     "Lógica de Programação - Mergulhe em Programação com JavaScript/Lógica de Programação - Mergulhe em Programação com JavaScript.md",
     "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD/Comandos.md",
     "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD/Conceitos.md",
-    "Lógica de programação - Explore funções e listas/Comandos JavaScript.md",
-    "Lógica de programação - Explore funções e listas/Conceitos.md",
     "KeyCloak",
     "Docker",
     "Lógica de Programação - Mergulhe em Programação com JavaScript/Conceitos.md",

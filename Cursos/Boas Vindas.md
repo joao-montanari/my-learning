@@ -10,6 +10,9 @@ As matérias estudadas nesse projeto são relacionadas a grade de Ciência da Co
 - [[Boas vindas - Matemática e Lógica]]
 - [[Boas Vindas - Algoritmo e complexidade]]
 
+## Cursos independentes
+- Boas vindas - Fastify
+
 ## Configurações e ferramentas de trabalho
 
 - [[Configuração|Docker com WSL]]

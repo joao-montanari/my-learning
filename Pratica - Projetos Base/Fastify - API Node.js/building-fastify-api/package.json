@@ -1,0 +1,19 @@
+{
+  "name": "building-fastify-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "dotenv": "^16.5.0",
+    "fastify": "^5.4.0",
+    "fastify-cors": "^6.1.0",
+    "mongoose": "^8.16.1"
+  }
+}

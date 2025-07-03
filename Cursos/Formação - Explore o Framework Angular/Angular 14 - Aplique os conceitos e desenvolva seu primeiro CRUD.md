@@ -157,9 +157,7 @@ helloFunction() {
 **Evento sendo usada no template HTML:**
 
 ```html
-<button
-	(click)="helloFunction()"
->
+<button (click)="helloFunction()">
 	Hello
 </button>
 ```

@@ -48,3 +48,20 @@ Existem vários Sistemas de Gerenciamento de Banco de Dados (SGBD) disponíveis 
 5. **SQLite:** Um SGBD incorporado que é leve e não requer um servidor separado. É comumente usado em aplicativos móveis e navegadores da web.
 
 Estes são apenas alguns exemplos de SGBDs disponíveis no mercado. A escolha do SGBD adequado depende das necessidades específicas do seu projeto, como volume de dados, escalabilidade, integração com outras tecnologias e requisitos de segurança. Cada SGBD tem suas próprias vantagens e desvantagens, e a escolha certa depende das prioridades do seu sistema.
+
+---
+### Utilizando o comando SELECT
+
+Vamos destrinchar o seguinte comando:
+
+```SQL
+SELECT * FROM tabelapedidos;
+```
+
+Uma coisa que vamos notar é que a linguagem SQL está em inglês. Então, muitas coisas da linguagem SQL, traduzidas, já permitem entender o que quer dizer. Esse primeiro comando, o `SELECT`, realmente vai selecionar as informações que queremos visualizar da nossa tabela.
+
+Mas vamos entender esse comando inteiro, o que ele está dizendo para nós. Temos como primeira palavra o `SELECT`, que em inglês significa **selecionar**. Logo, esse comando vai selecionar o quê? A próxima coisa que colocamos será especificando, poderíamos colocar uma coluna, mas no caso, temos o **asterisco** que significa que queremos selecionar **todos os dados**. Então, `SELECT *`.
+
+E de onde queremos que selecione esses dados? Para mostrar de onde queremos, colocamos a cláusula `FROM`, que em Inglês também quer dizer **de onde**, seguido pelo nome da tabela, ou de onde queremos que venham esses dados. No caso, é da tabela de pedidos.
+
+É importante lembrar que para cada comando em SQL escrito na plataforma é importante adicionar ponto e vírgula ao final da sentença. Assim, dizemos a plataforma que esse comando terminou.

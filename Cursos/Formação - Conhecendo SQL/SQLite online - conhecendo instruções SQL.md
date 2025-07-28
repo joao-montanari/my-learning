@@ -55,7 +55,7 @@ Estes são apenas alguns exemplos de SGBDs disponíveis no mercado. A escolha do
 Vamos destrinchar o seguinte comando:
 
 ```SQL
-SELECT * FROM tabelapedidos;
+SELECT * FROM tabela;
 ```
 
 Uma coisa que vamos notar é que a linguagem SQL está em inglês. Então, muitas coisas da linguagem SQL, traduzidas, já permitem entender o que quer dizer. Esse primeiro comando, o `SELECT`, realmente vai selecionar as informações que queremos visualizar da nossa tabela.

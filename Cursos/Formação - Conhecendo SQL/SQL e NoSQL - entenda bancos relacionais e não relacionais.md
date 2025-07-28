@@ -28,7 +28,10 @@ Agora, quando falamos de NoSQL, vale ressaltar que NoSQL não é uma linguagem.�
 ---
 ### Quando utilizar bancos de dados não relacionais?
 Os bancos não relacionais oferecem uma flexibilidade e escalabilidade muito vantajosa, principalmente quando se trata de grandes conjuntos de dados. Mas como as operações dos bancos NoSQL dependem do tipo de modelo escolhido, para utilizá-lo, precisamos entender a necessidade de nosso negócio, como:
+
 **1. Aplicações que trabalham com cache:** Em cenários onde o desempenho de leitura e gravação é fundamental, como em um sistema que precise de armazenar dados frequentemente acessados de forma rápida (sistema de cache) em tempo real, os modelos chave-valor dos bancos NoSQL, como o Redis, são frequentemente utilizados devido à sua alta velocidade de acesso e recuperação.
+
 **2. Sistemas de catálogos ou estruturas flexíveis:** Se a aplicação requer flexibilidade na estrutura e na consulta de dados, o modelo **orientado a documentos**, como MongoDB, pode ser uma boa escolha pela sua capacidade de conter informações de um objeto em um único documento. 
+
 Por estas e outras razões, é muito complicado comparar um modelo com outro, já que dependemos bastante do problema que precisamos resolver. Este assunto também já foi debatido em um artigo da Danielle Oliveira, sobre [Cassandra ou MongoDB, qual a melhor escolha para o meu projeto?](https://www.alura.com.br/artigos/cassandra-ou-mongodb-qual-a-melhor-escolha-para-o-meu-projeto), onde ela conta sobre os dois bancos NoSQL bastante utilizados no mercado. 
 Em resumo, tanto os bancos de dados relacionais quanto os não relacionais têm seus pontos fortes e fracos, e a escolha entre um ou outro dependerá das necessidades específicas de cada aplicação. Os bancos de dados relacionais são ideais para aplicações que exigem consistência e integridade de dados, enquanto os bancos de dados não relacionais são mais adequados para aplicações que exigem alta escalabilidade e flexibilidade no esquema de dados. Por isso, ter conhecimento dessas ferramentas é interessante para qualquer profissional de dados.

@@ -1,0 +1,5 @@
+A proposta para o curso é capacitar você a se tornar um desenvolvedor de software preparado para o mercado principalmente colocando a mão na massa com Node.js.
+Nas aulas iniciais, o objetivo é relembrar como se desenvolve sistemas utilizando Java Script e a partir disso avançar usando Node.js e no final reforçar passos de como ser um profissional mais adequado e preparado para o mercado.
+É importante ter uma base de conhecimentos que é relembrada na unidade inicial do curso, revisando o que já se sabe e te preparando para utilizar a linguagem Java Script.
+Dentro do curso existe uma unidade de revisão para relembrar os conceitos de programação aprendidos.
+Para reforçar o conhecimento o grande objetivo é desenvolver em conjunto um projeto onde é necessário praticar a montagem da proposta que chega normalmente aos desenvolvedores de software até tomar decisões durante o desenvolvimento do software para por fim entregar o produto final.

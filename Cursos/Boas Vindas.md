@@ -9,6 +9,7 @@ As matérias estudadas nesse projeto são relacionadas a grade de Ciência da Co
 ## Cursos Wyden
 - [[Boas vindas - Matemática e Lógica]]
 - [[Boas Vindas - Algoritmo e complexidade]]
+- [[Boas Vinda - Back-End Fluency]]
 
 ## Cursos independentes
 - Boas vindas - Fastify

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BackEnd Fluency/Boas Vinda - Back-End Fluency.md",
+                "file": "BackEnd Fluency/Unidade 01/O endereço dos recursos na web.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Boas Vinda - Back-End Fluency"
+              "title": "O endereço dos recursos na web"
             }
           },
           {
@@ -178,14 +178,15 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "10e8e9784d08eb7a",
+  "active": "1edffb4fdbe8e839",
   "lastOpenFiles": [
-    "BackEnd Fluency/Unidade 01/O endereço dos recursos na web.md",
-    "BackEnd Fluency/Boas Vinda - Back-End Fluency.md",
+    "Imagens/Pasted image 20260107110805.png",
     "BackEnd Fluency/Unidade 01/Visão geral de uma aplicação back-end.md",
+    "BackEnd Fluency/Unidade 01/O endereço dos recursos na web.md",
     "BackEnd Fluency/Unidade 01/Boas Vindas.md",
-    "Sem título",
+    "BackEnd Fluency/Boas Vinda - Back-End Fluency.md",
     "Git/Padrões de Commit.md",
+    "Sem título",
     "Formação - Explore o Framework Angular/Como começar com Angular.md",
     "Formação - Explore o Framework Angular/Angular 14 - Evoluindo a aplicação.md",
     "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD.md",
@@ -224,7 +225,6 @@
     "Wyden - Faculdade/Análise de Dados",
     "Wyden - Faculdade/Algoritmos e Complexidade",
     "Boas vindas - Modelagem de Sistemas em UML.md",
-    "Wyden - Modelagem de Sistemas em UML/Boas vindas - Modelagem de Sistemas em UML.md",
     "Wyden - Modelagem de Sistemas em UML/Coleção de Agentes Interconectados.canvas",
     "Wyden - Modelagem de Sistemas em UML/Análise de Requisitos.canvas",
     "Objetos e Classes.canvas",

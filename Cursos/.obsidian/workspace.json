@@ -4,39 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "898780956a006092",
+        "id": "70987a114801ef6a",
         "type": "tabs",
         "children": [
           {
-            "id": "baf80d7003270d7f",
+            "id": "45d86e0427d7cc23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BackEnd Fluency/Unidade 01/Comunicação com web services.md",
+                "file": "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 05 - First Meeting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comunicação com web services"
+              "title": "Aula 05 - First Meeting"
             }
           },
           {
-            "id": "28d5fd1a25834eee",
+            "id": "251b28bc151f7b04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BackEnd Fluency/Unidade 01/Arquitetura API REST e suas características.md",
+                "file": "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 06 - Greeting Sounds.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arquitetura API REST e suas características"
+              "title": "Aula 06 - Greeting Sounds"
+            }
+          },
+          {
+            "id": "99febb2c3aefae5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 07 - Real Greetings.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aula 07 - Real Greetings"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,11 +193,20 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "28d5fd1a25834eee",
+  "active": "99febb2c3aefae5b",
   "lastOpenFiles": [
+    "Pasted image 20260715141454.png",
+    "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 06 - Greeting Sounds.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 05 - First Meeting.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 04 - My Name Is....md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 03 - Say Hello.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 07 - Real Greetings.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 01",
+    "Ingles Fluency Academy/01. First Steps",
+    "Ingles Fluency Academy",
     "BackEnd Fluency/Unidade 01/Comunicação com web services.md",
-    "BackEnd Fluency/Boas Vinda - Back-End Fluency.md",
     "BackEnd Fluency/Unidade 01/Arquitetura API REST e suas características.md",
+    "BackEnd Fluency/Boas Vinda - Back-End Fluency.md",
     "BackEnd Fluency/Unidade 01/Boas Vindas.md",
     "KeyCloak/Fundamentos Keycloak.md",
     "Docker/Configuração.md",
@@ -199,7 +222,6 @@
     "Git/Padrões de Commit.md",
     "Imagens/Pasted image 20260107121449.png",
     "Imagens/Pasted image 20260107110805.png",
-    "Sem título",
     "Formação - Explore o Framework Angular/Como começar com Angular.md",
     "Formação - Explore o Framework Angular/Angular 14 - Evoluindo a aplicação.md",
     "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD.md",
@@ -210,11 +232,7 @@
     "Git/1. Introdução - GIT.md",
     "Formação - Conhecendo SQL/1. Introdução - SQL.md",
     "BackEnd Fluency/Unidade 01",
-    "Lógica de Programação - Mergulhe em Programação com JavaScript/Lógica de Programação - Mergulhe em Programação com JavaScript.md",
-    "Wyden - Faculdade/Análise de Dados/Boas Vindas - Análise de Dados.md",
-    "Wyden - Faculdade/Matemática e Lógica/Boas vindas - Matemática e Lógica.md",
     "BackEnd Fluency",
-    "Git/Comandos.md",
     "tabela+clientes+desafio+aula+1+.csv",
     "tabela+produtos+desafio+aula+1.csv",
     "tabela+vendas+desafio+aula+1.csv",
@@ -222,10 +240,7 @@
     "Imagens/sql_online_step_04.webp",
     "Imagens/sql_online_step_03.webp",
     "Formação - Conhecendo SQL",
-    "Lógica de programação - Explore funções e listas/Comandos JavaScript.md",
     "Git",
-    "Wyden - Faculdade/Análise de Dados",
-    "Wyden - Faculdade/Algoritmos e Complexidade",
     "Wyden - Modelagem de Sistemas em UML/Coleção de Agentes Interconectados.canvas",
     "Wyden - Modelagem de Sistemas em UML/Análise de Requisitos.canvas",
     "Objetos e Classes.canvas",

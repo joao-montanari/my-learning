@@ -16,12 +16,12 @@ Após executar esses dois comando é preciso reiniciar o computador para impleme
 
 Para iniciar o terminal basta executar:
 ```bash
-wls
+wsl
 ```
 
 Para instalar a imagem do Ubuntu como padrão:
 ```bash
-wls --install
+wsl --install
 ```
 
 ---

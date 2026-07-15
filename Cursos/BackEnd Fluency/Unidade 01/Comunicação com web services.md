@@ -14,9 +14,9 @@ Para entender melhor o funcionamento de um Web Service podemos usar uma imagem, 
 
 Nessa imagem podemos ver como a comunicação dos Web Services ocorrem por baixo dos panos. De um lado temos o cliente que vai estar acessando o endereço da nossa aplicação usando a internet, assim se comunicando de fato com o servidor que vai estar hospedando o código.
 A comunicação que acontece **do cliente para o servidor** é chamada de **Request (requisição)** que solicita alguma informação ou recurso do servidor.
-Já a comunicação que acontece **do servidor para o cliente** é chamada de **Response (responsa)** que vai retornar as informações ou recursos solicitados pelo cliente.
+Já a comunicação que acontece **do servidor para o cliente** é chamada de **Response (responsa)** que vai retornar as informações ou recursos solicitados.
 
-O servidor se trata da camada que vai estar executando o código do Back End processando as requisições que são feitas pelo cliente, dessa forma o objetivo do servidor é realizar diferentes processos, tais como validação, persistência de dados, armazenar informações no banco de dados entre outras coisas. Logo podemos deduzir que o servidor tem o papel de servo do cliente, sempre atendendo as suas necessidades e requisições.
+O servidor se trata da camada que vai estar executando o código do Back End processando as requisições que são feitas pelo cliente, dessa forma o objetivo do servidor é realizar diferentes processos, tais como validação, persistência de dados, armazenar informações no banco de dados entre outras coisas. Logo, podemos deduzir que o servidor tem o papel de servo do cliente, sempre atendendo as suas necessidades e requisições.
 
 ---
 ### 🏠 Arquiteturas

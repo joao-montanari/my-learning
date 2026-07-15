@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7846ce14d76d7243",
+        "id": "898780956a006092",
         "type": "tabs",
         "children": [
           {
-            "id": "02c41ad1d029e83d",
+            "id": "baf80d7003270d7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Comunicação com web services"
             }
+          },
+          {
+            "id": "28d5fd1a25834eee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BackEnd Fluency/Unidade 01/Arquitetura API REST e suas características.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Arquitetura API REST e suas características"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,17 +179,26 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "02c41ad1d029e83d",
+  "active": "28d5fd1a25834eee",
   "lastOpenFiles": [
-    "BackEnd Fluency/Boas Vinda - Back-End Fluency.md",
     "BackEnd Fluency/Unidade 01/Comunicação com web services.md",
-    "Pasted image 20260107134631.png",
-    "Imagens/Pasted image 20260107121449.png",
-    "BackEnd Fluency/Unidade 01/O endereço dos recursos na web.md",
-    "Git/Padrões de Commit.md",
-    "Imagens/Pasted image 20260107110805.png",
-    "BackEnd Fluency/Unidade 01/Visão geral de uma aplicação back-end.md",
+    "BackEnd Fluency/Boas Vinda - Back-End Fluency.md",
+    "BackEnd Fluency/Unidade 01/Arquitetura API REST e suas características.md",
     "BackEnd Fluency/Unidade 01/Boas Vindas.md",
+    "KeyCloak/Fundamentos Keycloak.md",
+    "Docker/Configuração.md",
+    "Boas Vindas.md",
+    "BackEnd Fluency/Unidade 01/O endereço dos recursos na web.md",
+    "BackEnd Fluency/Unidade 01/Visão geral de uma aplicação back-end.md",
+    "single-sign-on-keycloak.png",
+    "Keycloak.md",
+    "Lógica de programação - Explore funções e listas/Lógica de programação - Explore funções e listas.md",
+    "Imagens/o_que_mudou_keycloak.png",
+    "Imagens/autenticacao_trad_keycloak.png",
+    "Imagens/Pasted image 20260107134631.png",
+    "Git/Padrões de Commit.md",
+    "Imagens/Pasted image 20260107121449.png",
+    "Imagens/Pasted image 20260107110805.png",
     "Sem título",
     "Formação - Explore o Framework Angular/Como começar com Angular.md",
     "Formação - Explore o Framework Angular/Angular 14 - Evoluindo a aplicação.md",
@@ -185,14 +209,11 @@
     "Imagens/Pasted image 20260105105132.png",
     "Git/1. Introdução - GIT.md",
     "Formação - Conhecendo SQL/1. Introdução - SQL.md",
-    "Boas Vindas.md",
-    "Lógica de programação - Explore funções e listas/Lógica de programação - Explore funções e listas.md",
     "BackEnd Fluency/Unidade 01",
     "Lógica de Programação - Mergulhe em Programação com JavaScript/Lógica de Programação - Mergulhe em Programação com JavaScript.md",
     "Wyden - Faculdade/Análise de Dados/Boas Vindas - Análise de Dados.md",
     "Wyden - Faculdade/Matemática e Lógica/Boas vindas - Matemática e Lógica.md",
     "BackEnd Fluency",
-    "Docker/Configuração.md",
     "Git/Comandos.md",
     "tabela+clientes+desafio+aula+1+.csv",
     "tabela+produtos+desafio+aula+1.csv",
@@ -200,15 +221,9 @@
     "Imagens/sql_online_step_05.webp",
     "Imagens/sql_online_step_04.webp",
     "Imagens/sql_online_step_03.webp",
-    "Imagens/sql_online_step_02.webp",
-    "Imagens/sql_online_step_01.png",
     "Formação - Conhecendo SQL",
     "Lógica de programação - Explore funções e listas/Comandos JavaScript.md",
-    "Lógica de programação - Explore funções e listas/Conceitos.md",
-    "Formação - Explore o Framework Angular/Primeiros passos com Angular.md",
-    "Imagens/user.png",
     "Git",
-    "Wyden - Faculdade/Algoritmos e Complexidade/Boas Vindas - Algoritmo e complexidade.md",
     "Wyden - Faculdade/Análise de Dados",
     "Wyden - Faculdade/Algoritmos e Complexidade",
     "Wyden - Modelagem de Sistemas em UML/Coleção de Agentes Interconectados.canvas",

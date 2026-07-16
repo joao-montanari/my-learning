@@ -4,53 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "70987a114801ef6a",
+        "id": "4132708337b7e4d7",
         "type": "tabs",
         "children": [
           {
-            "id": "45d86e0427d7cc23",
+            "id": "3662124155d5b8bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 05 - First Meeting.md",
+                "file": "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 08 - Feling Words.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula 05 - First Meeting"
+              "title": "Aula 08 - Feling Words"
             }
           },
           {
-            "id": "251b28bc151f7b04",
+            "id": "17c793f182346c58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 06 - Greeting Sounds.md",
+                "file": "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 12 - Real Answers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula 06 - Greeting Sounds"
-            }
-          },
-          {
-            "id": "99febb2c3aefae5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 07 - Real Greetings.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Aula 07 - Real Greetings"
+              "title": "Aula 12 - Real Answers"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,14 +179,22 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "99febb2c3aefae5b",
+  "active": "17c793f182346c58",
   "lastOpenFiles": [
+    "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 08 - Feling Words.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 12 - Real Answers.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 11 - Sound Natural.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 10 - Mood Check.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 09 - How are you.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 07 - Real Greetings.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 02",
+    "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD.md",
+    "Formação - Explore o Framework Angular/Angular 14 - Evoluindo a aplicação.md",
     "Pasted image 20260715141454.png",
     "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 06 - Greeting Sounds.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 05 - First Meeting.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 04 - My Name Is....md",
     "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 03 - Say Hello.md",
-    "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 07 - Real Greetings.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 01",
     "Ingles Fluency Academy/01. First Steps",
     "Ingles Fluency Academy",
@@ -223,14 +217,8 @@
     "Imagens/Pasted image 20260107121449.png",
     "Imagens/Pasted image 20260107110805.png",
     "Formação - Explore o Framework Angular/Como começar com Angular.md",
-    "Formação - Explore o Framework Angular/Angular 14 - Evoluindo a aplicação.md",
-    "Formação - Explore o Framework Angular/Angular 14 - Aplique os conceitos e desenvolva seu primeiro CRUD.md",
     "Formação - Explore o Framework Angular/1. Introdução - Angular.md",
-    "Formação - Conhecendo SQL/SQLite online - conhecendo instruções SQL.md",
-    "Formação - Conhecendo SQL/SQL e NoSQL - entenda bancos relacionais e não relacionais.md",
     "Imagens/Pasted image 20260105105132.png",
-    "Git/1. Introdução - GIT.md",
-    "Formação - Conhecendo SQL/1. Introdução - SQL.md",
     "BackEnd Fluency/Unidade 01",
     "BackEnd Fluency",
     "tabela+clientes+desafio+aula+1+.csv",
@@ -238,9 +226,7 @@
     "tabela+vendas+desafio+aula+1.csv",
     "Imagens/sql_online_step_05.webp",
     "Imagens/sql_online_step_04.webp",
-    "Imagens/sql_online_step_03.webp",
     "Formação - Conhecendo SQL",
-    "Git",
     "Wyden - Modelagem de Sistemas em UML/Coleção de Agentes Interconectados.canvas",
     "Wyden - Modelagem de Sistemas em UML/Análise de Requisitos.canvas",
     "Objetos e Classes.canvas",

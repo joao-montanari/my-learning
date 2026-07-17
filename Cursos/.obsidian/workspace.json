@@ -8,17 +8,59 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3662124155d5b8bf",
+            "id": "ae37736f0c1015b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 08 - Feling Words.md",
+                "file": "Ingles Fluency Academy/01. First Steps/Unidade 03/Aula 13 - My Identity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula 08 - Feling Words"
+              "title": "Aula 13 - My Identity"
+            }
+          },
+          {
+            "id": "39c8c62fb68630dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ingles Fluency Academy/01. First Steps/Unidade 03/Aula 14 - About Me.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aula 14 - About Me"
+            }
+          },
+          {
+            "id": "a47a6cb09bc733f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ingles Fluency Academy/01. First Steps/Unidade 03/Aula 15 - Meet Me.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aula 15 - Meet Me"
+            }
+          },
+          {
+            "id": "7cd5b4871d952691",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ingles Fluency Academy/01. First Steps/Unidade 03/Aula 16 - Stress and Rhythm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aula 16 - Stress and Rhythm"
             }
           },
           {
@@ -27,16 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 12 - Real Answers.md",
+                "file": "Ingles Fluency Academy/01. First Steps/Unidade 03/Aula 17 - Quick Intoductions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula 12 - Real Answers"
+              "title": "Aula 17 - Quick Intoductions"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -181,9 +223,15 @@
   },
   "active": "17c793f182346c58",
   "lastOpenFiles": [
-    "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 08 - Feling Words.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 03/Aula 16 - Stress and Rhythm.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 03/Aula 17 - Quick Intoductions.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 12 - Real Answers.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 03/Aula 15 - Meet Me.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 03/Aula 14 - About Me.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 11 - Sound Natural.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 03/Aula 13 - My Identity.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 08 - Feling Words.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 03",
     "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 10 - Mood Check.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 09 - How are you.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 01/Aula 07 - Real Greetings.md",
@@ -208,16 +256,11 @@
     "BackEnd Fluency/Unidade 01/O endereço dos recursos na web.md",
     "BackEnd Fluency/Unidade 01/Visão geral de uma aplicação back-end.md",
     "single-sign-on-keycloak.png",
-    "Keycloak.md",
-    "Lógica de programação - Explore funções e listas/Lógica de programação - Explore funções e listas.md",
     "Imagens/o_que_mudou_keycloak.png",
     "Imagens/autenticacao_trad_keycloak.png",
     "Imagens/Pasted image 20260107134631.png",
-    "Git/Padrões de Commit.md",
     "Imagens/Pasted image 20260107121449.png",
     "Imagens/Pasted image 20260107110805.png",
-    "Formação - Explore o Framework Angular/Como começar com Angular.md",
-    "Formação - Explore o Framework Angular/1. Introdução - Angular.md",
     "Imagens/Pasted image 20260105105132.png",
     "BackEnd Fluency/Unidade 01",
     "BackEnd Fluency",
@@ -226,7 +269,6 @@
     "tabela+vendas+desafio+aula+1.csv",
     "Imagens/sql_online_step_05.webp",
     "Imagens/sql_online_step_04.webp",
-    "Formação - Conhecendo SQL",
     "Wyden - Modelagem de Sistemas em UML/Coleção de Agentes Interconectados.canvas",
     "Wyden - Modelagem de Sistemas em UML/Análise de Requisitos.canvas",
     "Objetos e Classes.canvas",

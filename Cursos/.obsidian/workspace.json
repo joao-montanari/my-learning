@@ -4,39 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "77184d406d2a50ca",
+        "id": "9f17aaebf5be983e",
         "type": "tabs",
         "children": [
           {
-            "id": "dca66ad42e74b8ea",
+            "id": "a0bc9bd18d4415fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ingles Fluency Academy/01. First Steps/Unidade 07/Aula 37 - My Things.md",
+                "file": "Ingles Fluency Academy/01. First Steps/Unidade 08/Aula 42 - Family Talk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula 37 - My Things"
+              "title": "Aula 42 - Family Talk"
             }
           },
           {
-            "id": "781d0ffe0e22944f",
+            "id": "733641db82324487",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ingles Fluency Academy/01. First Steps/Unidade 07/Aula 37 - My Things.md",
+                "file": "Ingles Fluency Academy/01. First Steps/Unidade 08/Aula 42 - Family Talk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula 37 - My Things"
+              "title": "Aula 42 - Family Talk"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,13 +180,19 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "781d0ffe0e22944f",
+  "active": "a0bc9bd18d4415fe",
   "lastOpenFiles": [
-    "Ingles Fluency Academy/01. First Steps/Unidade 07/Aula 36 - Do you.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 08/Aula 41 - TH Practice.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 08/Aula 42 - Family Talk.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 08/Aula 40 - Family Moment.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 08/Aula 39 - Describing Family.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 08/Aula 38 - My Family.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 07/Aula 37 - My Things.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 07/Aula 36 - Do you.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 07/Aula 35 - Lost and Found.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 07/Aula 34 - Do you have....md",
     "Ingles Fluency Academy/01. First Steps/Unidade 07/Aula 33 - Everyday Objects.md",
+    "Ingles Fluency Academy/01. First Steps/Unidade 08",
     "Ingles Fluency Academy/01. First Steps/Unidade 06/Aula 32 - Order Like This.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 06/Aula 28 - Foods & Drinks.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 06/Aula 31 - Polite Voice.md",
@@ -209,12 +214,7 @@
     "Ingles Fluency Academy/01. First Steps/Unidade 04/Aula 18 - Digits.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 05",
     "Ingles Fluency Academy/01. First Steps/Unidade 03/Aula 17 - Quick Intoductions.md",
-    "Ingles Fluency Academy/01. First Steps/Unidade 03/Aula 16 - Stress and Rhythm.md",
-    "Ingles Fluency Academy/01. First Steps/Unidade 03/Aula 15 - Meet Me.md",
-    "Ingles Fluency Academy/01. First Steps/Unidade 03/Aula 14 - About Me.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 04",
-    "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 12 - Real Answers.md",
-    "Ingles Fluency Academy/01. First Steps/Unidade 02/Aula 11 - Sound Natural.md",
     "Ingles Fluency Academy/01. First Steps/Unidade 03",
     "Ingles Fluency Academy/01. First Steps/Unidade 02",
     "Ingles Fluency Academy/01. First Steps/Unidade 01",
@@ -226,7 +226,6 @@
     "Imagens/Pasted image 20260107121449.png",
     "Imagens/Pasted image 20260107110805.png",
     "Imagens/Pasted image 20260105105132.png",
-    "BackEnd Fluency/Unidade 01",
     "Imagens/sql_online_step_05.webp",
     "Imagens/sql_online_step_04.webp",
     "Wyden - Modelagem de Sistemas em UML/Coleção de Agentes Interconectados.canvas",

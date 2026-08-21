@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"b459d29f70c2d24a","type":"text","text":"ChatClient","x":-285,"y":80,"width":160,"height":60,"color":"4"},
+		{"id":"968681702c582a27","type":"text","text":"Embedding","x":-95,"y":80,"width":160,"height":60,"color":"4"},
+		{"id":"1fc2bf489661c980","type":"text","text":"VectorStore","x":95,"y":80,"width":160,"height":60,"color":"4"},
+		{"id":"e442b0907f7e5625","type":"text","text":"# LLMs\nGemini - GPT - Claude","x":400,"y":-230,"width":250,"height":100,"color":"6"},
+		{"id":"2e7bd440681a8dd7","type":"text","text":"# Embeddings\nOpenIA - Gemini - Ollama","x":400,"y":-80,"width":250,"height":100,"color":"5"},
+		{"id":"961214dceb3dd149","type":"text","text":"# Bases Vetoriais\nPGVECTOR - PINECONE","x":400,"y":60,"width":250,"height":100,"color":"2"},
+		{"id":"ff796214f6340ef1","type":"text","text":"# App\nSPRING BOOT","x":-540,"y":-80,"width":200,"height":100},
+		{"id":"9d44c22a403fd119","type":"text","text":"# Spring IA","x":-95,"y":-65,"width":160,"height":70,"color":"4"}
+	],
+	"edges":[
+		{"id":"64f4a08357663ff8","fromNode":"ff796214f6340ef1","fromSide":"right","toNode":"9d44c22a403fd119","toSide":"left","label":"prompt"},
+		{"id":"3ada6e4dfba90843","fromNode":"9d44c22a403fd119","fromSide":"right","toNode":"961214dceb3dd149","toSide":"left"},
+		{"id":"4c60da2e0aac8b51","fromNode":"9d44c22a403fd119","fromSide":"right","toNode":"2e7bd440681a8dd7","toSide":"left"},
+		{"id":"c4ca7169b3759440","fromNode":"9d44c22a403fd119","fromSide":"right","toNode":"e442b0907f7e5625","toSide":"left"}
+	]
+}

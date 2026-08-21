@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"5b58cbe9d29ab782","type":"text","text":"\n","x":-700,"y":-200,"width":420,"height":460,"color":"1"},
+		{"id":"8d58dc96574832f8","type":"text","text":"## Antes do Boot\n","x":-680,"y":-227,"width":230,"height":55,"color":"1"},
+		{"id":"6cad1edd9a68c755","type":"text","text":"#### web.xml\ndescritor do servlet","x":-680,"y":-140,"width":380,"height":80},
+		{"id":"d97784629d0979af","type":"text","text":"#### configs XML\napplicationContext.xml","x":-680,"y":-38,"width":380,"height":80},
+		{"id":"e05a98f4ddec3664","type":"text","text":"#### Servidor externo\nInstalar Tomcat - deploy WAR","x":-680,"y":60,"width":380,"height":80},
+		{"id":"fcb86521004b0cf4","type":"text","text":"#### Dependências manuais\nVersões incompatíveis","x":-680,"y":160,"width":380,"height":80},
+		{"id":"c3e8956556fd189f","type":"text","text":"\n","x":-20,"y":-198,"width":420,"height":458,"color":"4"},
+		{"id":"f4e890b43c25d7b0","type":"text","text":"## Spring Boot\n","x":0,"y":-227,"width":200,"height":58,"color":"4"},
+		{"id":"5f283c31de06d970","type":"text","text":"#### Spring Framework\nDI - MVC - DADOS","x":0,"y":-140,"width":380,"height":80},
+		{"id":"1bdf117d2bfe7ae0","type":"text","text":"#### Servlet Container embutido\nTOMCAT - JETTY - NETTY","x":0,"y":-38,"width":380,"height":80},
+		{"id":"c6915ea0907b9000","type":"text","text":"#### Auto-configuration\nSEM CONFIGS XML","x":0,"y":60,"width":380,"height":80},
+		{"id":"b8b02b7521e241ce","type":"text","text":"#### Starters\nspring-boot-starter-*","x":0,"y":160,"width":380,"height":80}
+	],
+	"edges":[
+		{"id":"0e3d92a8b8016f95","fromNode":"5b58cbe9d29ab782","fromSide":"right","toNode":"c3e8956556fd189f","toSide":"left","label":"Simplifica"}
+	]
+}

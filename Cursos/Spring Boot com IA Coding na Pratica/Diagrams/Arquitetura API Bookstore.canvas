@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"379cbb3fe67c74f1","type":"text","text":"# Cliente\nHTTP","x":-500,"y":-140,"width":250,"height":100},
+		{"id":"41c1094e84257572","type":"text","text":"# BookController\nREST","x":-160,"y":-140,"width":250,"height":100,"color":"5"},
+		{"id":"32c45bca16add9b3","type":"text","text":"# BookService\nREGRAS","x":180,"y":-140,"width":250,"height":100,"color":"6"},
+		{"id":"13aad033ea163e49","type":"text","text":"# Bookrepository\nSPRING DATA JPA","x":520,"y":-140,"width":280,"height":100,"color":"4"},
+		{"id":"fe2dd9f5bec86bde","type":"text","text":"# PostgresSQL\nBOOKS","x":880,"y":-140,"width":250,"height":100,"color":"4"},
+		{"id":"ebde7914be43bfef","type":"text","text":"# Spring AI\nRESUMO - RECOMENDAÇÕES","x":165,"y":80,"width":280,"height":100,"color":"4"},
+		{"id":"a2ca6b3a6e28da2a","type":"text","text":"# LLM\nGemini - GPT - Claude","x":520,"y":80,"width":280,"height":100,"color":"5"},
+		{"id":"3ad00ab88b775d2f","type":"text","text":"`GET /books`","x":-500,"y":80,"width":235,"height":50,"color":"6"},
+		{"id":"a32fa72654a82e53","type":"text","text":"`POST /books`","x":-250,"y":80,"width":235,"height":50,"color":"3"},
+		{"id":"f99ca06b935df0d2","type":"text","text":"`PUT /books/{id}`","x":-500,"y":145,"width":235,"height":50,"color":"5"},
+		{"id":"f52a2eecd95c54ec","type":"text","text":"`DELETE /books/{id}`","x":-250,"y":145,"width":235,"height":50,"color":"1"}
+	],
+	"edges":[
+		{"id":"f0a265629506322a","fromNode":"379cbb3fe67c74f1","fromSide":"right","toNode":"41c1094e84257572","toSide":"left"},
+		{"id":"1e3ae8ea54e8f242","fromNode":"41c1094e84257572","fromSide":"right","toNode":"32c45bca16add9b3","toSide":"left"},
+		{"id":"48f274f8cad3a2a5","fromNode":"32c45bca16add9b3","fromSide":"right","toNode":"13aad033ea163e49","toSide":"left"},
+		{"id":"721fcf187899c4fc","fromNode":"13aad033ea163e49","fromSide":"right","toNode":"fe2dd9f5bec86bde","toSide":"left"},
+		{"id":"eff76c73d0851786","fromNode":"32c45bca16add9b3","fromSide":"bottom","toNode":"ebde7914be43bfef","toSide":"top","label":"Contexto - regras"},
+		{"id":"8d76eb65741851ba","fromNode":"ebde7914be43bfef","fromSide":"right","toNode":"a2ca6b3a6e28da2a","toSide":"left"}
+	]
+}

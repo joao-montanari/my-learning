@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"968c854822f08514","type":"text","text":"# Beans do Spring\nObjetos gerenciados pelo container: o Spring cria, injeta e controla o ciclo de vida","x":-440,"y":-360,"width":720,"height":340},
+		{"id":"2e9bee7c6ad82825","type":"text","text":"`@Component`\nEstereótipo genérico","x":-420,"y":-240,"width":330,"height":80,"color":"6"},
+		{"id":"da7440357452c6d7","type":"text","text":"`@Service`\nCamada de negócio","x":-420,"y":-140,"width":330,"height":80,"color":"1"},
+		{"id":"8f16bbba8d3db8c6","type":"text","text":"`@Repository`\nCamada de dados","x":-70,"y":-240,"width":330,"height":80,"color":"4"},
+		{"id":"92319175cbea5b24","type":"text","text":"`@Controller`\nCamada web","x":-70,"y":-140,"width":330,"height":80,"color":"5"}
+	],
+	"edges":[]
+}

@@ -1,14 +1,61 @@
 public class Main {
     public static void main(String[] args) {
 
-        // This is my first Java Program
+        // ✅ variable = a reusable container for a value
+        //               a variable behaves as if it was the value it contains
 
-        /*
-        multi line comments
-         */
+        // 🔴 Primitive = simple value stored directly in memory (stack)
+        // 🔵 Reference = memory address (stack) that points to the (heap)
 
-        // You can write this line with command "sout" in the IntelliJ ===> sout = System.out.println();
-        System.out.println("Hello world!");
+        // 🔴 Primitive vs 🔵 Reference
+        //    ---------        --------
+        //    int              string
+        //    double           array
+        //    char             object
+        //    boolean
 
+        // 2. Steps to creating a variable
+        // -------------------------------
+        // 1. declaration
+        // 2. assignment
+
+        int age = 23;
+        int year = 2026;
+
+        double height = 1.75;
+        double pi = 3.14;
+        double temperature = -80;
+
+        char symbol = '#';
+        char firstWordName = 'C';
+
+        boolean isStudent = true;
+        boolean isOnline = false;
+
+        String name = "Bro Code";
+        String food = "Pizza";
+
+        System.out.println("Age: " + age);
+        System.out.println("The year is: " + year);
+
+        System.out.println("Height: " + height);
+        System.out.println("PI: " + pi);
+
+        System.out.println("Temperature: " + temperature);
+        System.out.println("My first word Name: " + firstWordName);
+
+        System.out.println("she is a student? " + isStudent);
+        System.out.println("He is online? " + isOnline);
+
+        System.out.println("Name: " + name);
+        System.out.println("My favorite food is: " + food);
+
+        if(isStudent) {
+            System.out.println("She is a student!!!");
+        } else {
+            System.out.println("She is not a student");
+        }
+
+        System.out.println("concat vars infos: " + name + " has " + age + " year old, and he love eat " + food);
     }
 }

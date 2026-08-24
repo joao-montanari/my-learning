@@ -1,61 +1,67 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        // ✅ variable = a reusable container for a value
-        //               a variable behaves as if it was the value it contains
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
 
-        // 🔴 Primitive = simple value stored directly in memory (stack)
-        // 🔵 Reference = memory address (stack) that points to the (heap)
+        System.out.println("Hello " + name);
 
-        // 🔴 Primitive vs 🔵 Reference
-        //    ---------        --------
-        //    int              string
-        //    double           array
-        //    char             object
-        //    boolean
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
 
-        // 2. Steps to creating a variable
-        // -------------------------------
-        // 1. declaration
-        // 2. assignment
+        System.out.println("You are " + age);
 
-        int age = 23;
-        int year = 2026;
+        System.out.print("What is your GPA: ");
+        double gpa = scanner.nextDouble();
 
-        double height = 1.75;
-        double pi = 3.14;
-        double temperature = -80;
+        System.out.println("Your GPA is " + gpa);
 
-        char symbol = '#';
-        char firstWordName = 'C';
-
-        boolean isStudent = true;
-        boolean isOnline = false;
-
-        String name = "Bro Code";
-        String food = "Pizza";
-
-        System.out.println("Age: " + age);
-        System.out.println("The year is: " + year);
-
-        System.out.println("Height: " + height);
-        System.out.println("PI: " + pi);
-
-        System.out.println("Temperature: " + temperature);
-        System.out.println("My first word Name: " + firstWordName);
-
-        System.out.println("she is a student? " + isStudent);
-        System.out.println("He is online? " + isOnline);
-
-        System.out.println("Name: " + name);
-        System.out.println("My favorite food is: " + food);
+        System.out.print("Are you a student (true/false)? ");
+        boolean isStudent = scanner.nextBoolean();
 
         if(isStudent) {
-            System.out.println("She is a student!!!");
+            System.out.println("You are enrolled as a student");
         } else {
-            System.out.println("She is not a student");
+            System.out.println("You are NOT enrolled");
         }
 
-        System.out.println("concat vars infos: " + name + " has " + age + " year old, and he love eat " + food);
+        // COMMON ISSUES
+
+        System.out.print("Enter current day: ");
+        int day = scanner.nextInt();
+        scanner.nextLine();     // Fix: this method clean the scanner buffer for the next line
+
+        System.out.print("Enter your favorite color: ");
+        String color = scanner.nextLine();
+
+        System.out.println("Today is day " + day);
+        System.out.println("you like color " + color);
+
+        /*
+            The problem: Enter within the input buffer there´s
+            still a new line character because we hit enter so
+            the next line method is picking up that new line character
+         */
+
+        // Calculate area of rectangle
+
+        double width = 0;
+        double height = 0;
+        double area = 0;
+
+        System.out.print("Enter the width: ");
+        width = scanner.nextDouble();
+
+        System.out.print("Enter the height: ");
+        height = scanner.nextDouble();
+
+        area = width * height;
+
+        System.out.println("The area of rectangle is: " + area + "cm²");
+
+        scanner.close();
     }
 }
